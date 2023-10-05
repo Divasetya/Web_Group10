@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800&family=Mooli&family=Poppins:wght@300;700&display=swap');
 
-<<<<<<< HEAD
 *{
   scroll-behavior: smooth;
   
@@ -10,8 +9,6 @@ body{
     padding: 0;
    
 }
-=======
->>>>>>> 014480ae71d369b3e3022517624662c60b903dc9
 #kerja-sama {
     background-color: #FDFCFA;
     height: 51vh;
@@ -27,7 +24,6 @@ body{
   height: 525px;
 }
 
-<<<<<<< HEAD
 
 
 .tebal-hr {
@@ -39,8 +35,6 @@ color: #C70039;
 
 
 
-=======
->>>>>>> 014480ae71d369b3e3022517624662c60b903dc9
 .bayar-kirim img{
   background-color: white;
   border: black;
@@ -50,7 +44,6 @@ color: #C70039;
   
 }
 
-<<<<<<< HEAD
 .icon{
 
    display: flex;
@@ -66,14 +59,5 @@ font-size: 18px;
 font-weight: 500;
 margin: 12px;
 text-decoration: none;
-=======
-.icon p {
-  background-color: #141e46;
-  color: white;
-  font-family: montserrat;
-  font-weight: bold;
-  padding: 6px 8px;
-  border-radius: 5px;
->>>>>>> 014480ae71d369b3e3022517624662c60b903dc9
   float: right;
 }
