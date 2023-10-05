@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800&family=Mooli&family=Poppins:wght@300;700&display=swap');
+
+#kerja-sama {
+    background-color: #FDFCFA;
+    height: 51vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-image: url("images/DTF.png");
+  background-size: 585px;
+  background-repeat: no-repeat;
+  height: 525px;
+}
+
+.bayar-kirim img{
+  background-color: white;
+  border: black;
+  /* padding: 6px 10px; */
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+  
+}
+
+.icon p {
+  background-color: #141e46;
+  color: white;
+  font-family: montserrat;
+  font-weight: bold;
+  padding: 6px 8px;
+  border-radius: 5px;
+  float: right;
+}
