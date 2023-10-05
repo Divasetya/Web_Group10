@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800&family=Mooli&family=Poppins:wght@300;700&display=swap');
+
+*{
+  scroll-behavior: smooth;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+#kerja-sama {
+    background-color: #FDFCFA;
+    height: 51vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-image: url("images/DTF.png");
+  background-size: 585px;
+  background-repeat: no-repeat;
+  height: 525px;
+}
+
+
+
+.tebal-hr {
+color: #C70039;
+   
+   height: 5px;
+     /* style="background-color: #FFE3E3;" */
+}
+
+
+
+.bayar-kirim img{
+  background-color: white;
+  border: black;
+  /* padding: 6px 10px; */
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+  
+}
+
+.icon{
+
+   display: flex;
+flex-direction: column;
+}
+.icon >span>a {
+  background-color: #141E46;
+  color: white;
+  font-family: montserrat;
+  padding: 6px 8px;
+  border-radius: 5px;
+font-size: 18px;
+font-weight: 500;
+margin: 12px;
+text-decoration: none;
+  float: right;
+}

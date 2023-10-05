@@ -1,0 +1,175 @@
+*{
+  scroll-behavior: smooth;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.navbar-brand > img{
+ width: 264px;
+height: 64px;
+/* background: red; */
+margin-top: 15px;
+margin-left: 30px;
+}
+
+.container{
+    margin-top: -105px;
+    background: #C70039;
+     width: 640px;
+     height: 840px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card{
+    width: 456px;
+    /* height: 300px; */
+    align-items: center;
+   border-radius: 20px;
+  
+        
+}
+
+.card-lingkar{
+   background: #141E46;
+   width: 220px;
+    height: 130px;
+    margin-top: -65px;
+    position: absolute;
+    border-radius: 70%;
+   justify-content: center;
+  align-items: center;
+  display: flex;
+   color: #ffffff;
+ box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.25);
+  
+}
+
+.card-form{
+    margin-top: 90px;
+
+}
+.mb-3{
+
+    margin-left: 12px;
+}
+
+.form-control{
+    width: 400px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgba(163, 1, 1, 0.305);
+}
+.form-check-input:focus{
+     border: none;
+    box-shadow: 0 0 0 0.2rem rgba(163, 1, 1, 0.305);
+}
+.form-check-label{
+  
+    width: 380px;
+    font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+
+.btn-submit-warna{
+
+background-color: #141E46;
+color: #FFFFFF;
+margin: 12px;
+}
+
+.btn-submit-warna:hover{
+    background-color: #30374f;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.icon-google{
+    width: 25px;
+height: 25px;
+}
+
+.btn-submit-warna2{
+    background: #ffffff;
+    margin: 12px;
+}
+
+.btn-submit-warna2:hover{
+    background-color: #d6d7db;
+    transition: 1s;
+}
+
+.mb-3 > p >a{
+   text-decoration: none;
+   color:#050505;
+   font-weight: bold;
+   font-style: normal;
+}
+
+.mb-3 > p >a:hover{
+      color: #7f082a;
+    transition: 1s;
+}
+
+.mb-3 > p{
+    text-align: center;
+    font-style: italic;
+}
+
+
+.card-footer{
+    margin-top: 719px;
+    position: absolute;
+    /* background: #C70039; */
+     /* style="background-color: #FFE3E3;" */
+}
+
+.tebal-hr {
+color: #C70039;
+   
+   height: 5px;
+     /* style="background-color: #FFE3E3;" */
+}
+
+
+
+.bayar-kirim img{
+  background-color: white;
+  border: black;
+  /* padding: 6px 10px; */
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+  
+}
+
+.icon{
+
+   display: flex;
+flex-direction: column;
+}
+.icon >span>a {
+  background-color: #141E46;
+  color: white;
+  font-family: montserrat;
+  padding: 6px 8px;
+  border-radius: 5px;
+font-size: 18px;
+font-weight: 500;
+margin: 12px;
+text-decoration: none;
+  float: right;
+}

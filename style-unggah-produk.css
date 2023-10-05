@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800&family=Mooli&family=Poppins:wght@300;700&display=swap');
+
+*{
+  scroll-behavior: smooth;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+   background: #FFE3E3;
+}
+
+.navbar{
+    background: #FFFFFF;
+    height: 105px;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    width: 100%;
+     display: flex;
+     display: flex;
+    justify-content: center; 
+    align-items: center;
+  top: 0;
+  z-index: 1;
+}
+.navbar-brand > img{
+  width: 444px;
+height: 100px;
+margin-top: -10px;
+
+
+}
+
+.container-fluid{
+/* background-color: aqua; */
+height: 400px;
+position: relative;
+margin-top: 104px;
+/* z-index: -1; */
+
+}
+
+
+.card{
+
+width: 430px;
+background: #f30e0e00;
+border: none;
+margin-left: 240px;
+}
+.card-body{
+    margin-top: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.card-body > .btn{
+    margin: 5px;
+    width: 40px;
+    height: 30px;
+  
+}
+
+.card-texs{
+  
+    margin-left: 9px;
+
+}
+.card-texs > .btn {
+   margin-top: 12px;
+   border: none;
+   border: none;
+}
+.card-texs > .btn:hover {
+    color: #C70039;
+  transition: .90s;
+}
+.card-form{
+    
+    background: #FFFFFF;
+    width: 569px;
+    height: 1229px;
+   margin-top: -604px;
+  margin-left: auto;
+
+}
+
+.mb-3{
+    margin-left: 20px;
+
+}
+
+.form-control{
+    width: 460px;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgba(163, 1, 1, 0.305);
+}
+.btn-hapus{
+    margin-top: -37px;
+    margin-left: 490px;
+}
+
+.btn-warna .btn-check:checked + .btn {
+    border-color: #C70039 /* Ganti warna border sesuai kebutuhan Anda */
+}
+
+
+/* Gaya radio button yang dipilih */
+.form-check-input:checked {
+    background-color: #C70039 ;
+   border: none;
+    
+}
+.form-check-input:focus {
+    outline: none;
+   box-shadow: none;
+}
+
+.btn-check:checked + label.btn {
+    background-color: #C70039; /* Atur warna latar belakang sesuai kebutuhan Anda saat dipilih */
+   
+    color: white; /* Atur warna teks sesuai kebutuhan Anda saat dipilih */
+}
+
+.biaya-layanan{
+    /* background-color: #C70039; */
+    text-align: right;
+    margin-right: 87px;
+}
+.text {
+    margin: 0;
+}
+
+.btn-submit-warna{
+
+background-color: #141E46;
+color: #FFFFFF;
+margin: 12px;
+}
+
+.btn-submit-warna:hover{
+    background-color: #30374f;
+    color: #FFFFFF;
+    transition: .19;
+}
+
+.card-footer{
+    margin-top: 814px;
+    position: absolute;
+    /* background: #C70039; */
+     /* style="background-color: #FFE3E3;" */
+}
+
+.tebal-hr {
+color: #C70039;
+   
+   height: 5px;
+     /* style="background-color: #FFE3E3;" */
+}
+
+
+
+.bayar-kirim img{
+  background-color: white;
+  border: black;
+  /* padding: 6px 10px; */
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+  
+}
+
+.icon{
+
+   display: flex;
+flex-direction: column;
+}
+.icon >span>a {
+  background-color: #141E46;
+  color: white;
+  font-family: montserrat;
+  padding: 6px 8px;
+  border-radius: 5px;
+font-size: 18px;
+font-weight: 500;
+margin: 12px;
+text-decoration: none;
+  float: right;
+}
