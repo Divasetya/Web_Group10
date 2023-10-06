@@ -134,13 +134,13 @@ height: 25px;
 .card-footer{
     margin-top: 719px;
     position: absolute;
-    /* background: #C70039; */
+    background: #FFE3E3;
      /* style="background-color: #FFE3E3;" */
 }
 
 .tebal-hr {
 color: #C70039;
-   
+   margin-top: -1px;
    height: 5px;
      /* style="background-color: #FFE3E3;" */
 }
