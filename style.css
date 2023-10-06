@@ -1,0 +1,44 @@
+:root{
+    --primary: #C70039;
+    --secondary: #141E46;
+    --white: #FDFCFA;
+    --pink: #FFE3E3;
+}
+
+.navbar{
+    background-color: var(--primary);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav-link a{
+    color: black;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.btn-primary-pink{
+    background-color: var(--primary);
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-primary-pink:hover{
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-secondary-black{
+    background-color: var(--secondary);
+    color: white;
+}
+
+.btn-secondary-black:hover{
+    color: white;
+    background-color: var(--secondary);
+}
