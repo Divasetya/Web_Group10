@@ -1,44 +1,63 @@
-:root{
-    --primary: #C70039;
-    --secondary: #141E46;
-    --white: #FDFCFA;
-    --pink: #FFE3E3;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;800&family=Mooli&family=Poppins:wght@300;700&display=swap');
+
+*{
+  scroll-behavior: smooth;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+#kerja-sama {
+    background-color: #FDFCFA;
+    height: 51vh;
+    display: flex;
+    align-items: center;
 }
 
-.navbar{
-    background-color: var(--primary);
+.jumbotron {
+  padding: 2rem 1rem;
+  background-image: url("images/DTF.png");
+  background-size: 585px;
+  background-repeat: no-repeat;
+  height: 525px;
 }
 
-.navbar a{
-    text-decoration: none;
-    color: white;
+
+
+.tebal-hr {
+color: #C70039;
+   
+   height: 5px;
+     /* style="background-color: #FFE3E3;" */
 }
 
-.navbar .nav-link a{
-    color: black;
+
+
+.bayar-kirim img{
+  background-color: white;
+  border: black;
+  /* padding: 6px 10px; */
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+  
 }
 
-footer a{
-    text-decoration: none;
-}
+.icon{
 
-.btn-primary-pink{
-    background-color: var(--primary);
-    border: 1px solid white;
-    color: white;
+   display: flex;
+flex-direction: column;
 }
-
-.btn-primary-pink:hover{
-    border: 1px solid white;
-    color: white;
-}
-
-.btn-secondary-black{
-    background-color: var(--secondary);
-    color: white;
-}
-
-.btn-secondary-black:hover{
-    color: white;
-    background-color: var(--secondary);
+.icon >span>a {
+  background-color: #141E46;
+  color: white;
+  font-family: montserrat;
+  padding: 6px 8px;
+  border-radius: 5px;
+font-size: 18px;
+font-weight: 500;
+margin: 12px;
+text-decoration: none;
+  float: right;
 }
