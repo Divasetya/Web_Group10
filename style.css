@@ -90,6 +90,7 @@ body {
 
 .navbar {
   background-color: var(--primary);
+  padding: 1rem 40px;
 }
 
 .navbar a {
