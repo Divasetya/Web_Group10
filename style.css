@@ -90,6 +90,7 @@ body {
 
 .navbar {
   background-color: var(--primary);
+  padding: 1rem 40px;
 }
 
 .navbar a {
@@ -146,6 +147,9 @@ footer a {
   pointer-events: none;
   color: #aaa;
 <<<<<<< HEAD
+
+=======
+>>>>>>> 4e137ba0ad9d4520752d57cdcbb114a9a56e30e4
 }
 
 .carousel-cell {
@@ -162,6 +166,8 @@ footer a {
 .flickity-prev-next-button {
   width: 30px !important;
   height: 30px !important;
+<<<<<<< HEAD
 =======
 >>>>>>> 9afb5c33e345e6134a8aa513ffcc26ad55d562f3
+
 }
