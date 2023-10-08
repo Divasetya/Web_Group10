@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="profile.css">
+    <title>Document</title>
+</head>
+<body>
+
+      <nav class="navbar">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between w-100 gap-5 align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/lokatrendy-white.png" alt="" width="136" height="32"
+                        class="d-inline-block align-text-top">
+                </a>
+                <form class="d-flex w-100 align-items-center">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn" type="button" style="background-color: #DADADA;">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #666;"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="d-flex gap-2 h-50">
+                    <a href="" class="btn-icone "><i class="fa fa-shopping-cart"></i>  </a>
+                    <a href=""><img class="profile-img" src="./images/pp1.png" alt=""></a>
+                    <p class="name-profile">marsha</p>
+                    <!-- <a href="" class="btn btn-secondary-black px-4">Daftar</a> -->
+                </div>
+            </div>
+            <div class="mt-3 mb-1 d-flex justify-content-between w-100">
+                <div class="d-flex gap-4 nav-link">
+                    <a href="">Beranda</a>
+                    <a href="">Brand</a>
+                    <a href="">Weekly Bestseller</a>
+                    <a href="">Produk</a>
+                    <a href="">Artikel</a>
+                </div>
+                <div>
+                    <a href="" class="btn btn-secondary-black rounded-5 px-4">Buat Sekarang <i
+                            class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+       <div class="card">
+        <div class="card-kotak">
+           <img class="profile-img-2" src="./images/pp1.png" alt="">
+            <div class="name-profile-2">
+            <p >Marsha Lenathea</p>
+             <p >08*****1324</p>
+             </div>
+
+             <div class="saldo">
+                </span>Saldo saat ini :</span>
+             </div>
+            <div class="card-saldo">
+              <p>Rp. 0</p>
+            </div>
+        </div>
+
+         <div class="texs-profile">
+                <ul>
+                 <li><a href="#">PROFILE</a></li>
+                  <li><a href="">PEMBELIAN</a></li>
+                   <li><a href="">BRAND</a></li>
+                    <li><a href="">LOGOUT</a></li>
+                </ul>
+         </div>
+       </div>
+       <!-- // -->
+        <div class="card-2">
+            <span>PROFILE</span>
+            <br>
+            <br>
+        <div class="card-kotak-2">
+            <div class="texs-profile-2">
+                <ul>
+                <li><a href="#" class="nav-link active" onclick="showContent('biodata')">BIODATA DIRI</a></li>
+                    <li><a href="#" class="nav-link" onclick="showContent('alamat')">DAFTAR ALAMAT</a></li>
+                    <li><a href="#" class="nav-link" onclick="showContent('rekening')">REK. BANK</a></li>
+                    <li><a href="#" class="nav-link" onclick="showContent('password')">PASSWORD</a></li>
+                </ul>
+         </div> 
+        </div>
+         <!-- /////BIODATA -->
+            <div class="content active" id="biodata">
+                <div class="profile-img-3">
+               <img  src="./images/pp1.png" alt="">
+                </div>
+                  <button type="submit" class=" btn-ubah">Ubah</button>
+                
+                      <p class="ubah-data ">UBAH DATA DIRI SAYA</p>
+
+                <div class="card-form">
+                <form>
+                  <div class="mb-3 card-mb-1">
+                    <label for="nama" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="nama" >
+                  </div>
+                   <div class="mb-3 card-mb-1">
+                    <label for="email" class="form-label">Alamat Email</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3 card-mb-1">
+                    <label for="no_telepon" class="form-label">No. Telpon / No. Hp</label>
+                    <input type="text" class="form-control" id="no_telepon">
+                  </div>
+                   <div class="mb-3 card-mb-1">
+                    <label for="tgl_lahir" class="form-label">Tanggal Lahir</label>
+                    <input type="date" class="form-control" id="tgl_lahir">
+                  </div>
+                   <div class="mb-3 card-mb-1">
+                    <label for="jenis_kelamin" class="form-label">Jenis Kelamin</label>
+                    <select class="form-select" id="jenis_kelamin">
+                        <option value="1">Laki-laki</option>
+                        <option value="2">Perempuan</option>
+                    </select>
+                </div>
+                  <button type="submit" class="btn-warna">Simpan</button>
+                </form>
+                </div>
+                <br>
+            </div>
+
+<!-- DAFTAR-ALAMAT -->
+            <div class="content " id="alamat">
+               
+                 <p class="ubah-data-2">Alamat Saya</p>
+
+                <div class="card-form-2">
+                <form>
+                  <div class="mb-3 card-mb-2">
+                    <label for="nama_penerima" class="form-label">Nama Penerima</label>
+                    <input type="text" class="form-control" id="nama_penerima" >
+                  </div>
+                   <div class="mb-3 card-mb-2">
+                    <label for="no_telpon" class="form-label">No. Telpon / No. Hp</label>
+                    <input type="text" class="form-control" id="no_telpon">
+                  </div>
+                  <div class="mb-3 card-mb-2">
+                    <label for="provinsi" class="form-label">Provinsi</label>
+                    <input type="text" class="form-control" id="provinsi">
+                  </div>
+                   <div class="mb-3 card-mb-2">
+                    <label for="kabupaten" class="form-label">Kabupaten/Kota</label>
+                    <input type="text" class="form-control" id="kabupaten">
+                  </div>
+                   
+                   <div class="mb-3 card-mb-2">
+                    <label for="kecamatan" class="form-label">Kecamatan</label>
+                    <input type="text" class="form-control" id="kecamatan">
+                  </div>
+                  <div class="mb-3 card-mb-2">
+                    <label for="kode_pos" class="form-label">Kode Pos</label>
+                    <input type="text" class="form-control" id="kode_pos">
+                  </div>
+                   <div class="mb-3 card-mb-2">
+                    <label for="kode_pos" class="form-label">Kode Pos</label>
+                    <textarea class="form-control" name="" id="" cols="" rows="5"></textarea>
+                  </div>
+
+                  <button type="submit" class="btn-warna">Simpan</button>
+                </form>
+                </div>
+                <br>
+          </div>
+            
+                
+            <div class="content" id="rekening">
+                 <p class="ubah-data-2">REK. BANK SAYA</p>
+
+                <div class="card-form-2">
+                <form>
+                  <div class="mb-3 card-mb-2">
+                    <label for="rek_bank" class="form-label">Nama Bank</label>
+                    <input type="text" class="form-control" id="rek_bank" >
+                  </div>
+                   <div class="mb-3 card-mb-2">
+                    <label for="nama_pemilik_bank" class="form-label">Nama Pemilik Bank</label>
+                    <input type="text" class="form-control" id="nama_pemilik_bank">
+                  </div>
+                  <div class="mb-3 card-mb-2">
+                    <label for="no_rek" class="form-label">No. Rekening Bank</label>
+                    <input type="text" class="form-control" id="no_rek">
+                  </div>
+                   
+                  <button type="submit" class="btn-warna">Simpan</button>
+                </form>
+                </div>
+                <br>
+            </div>
+
+
+            <div class="content" id="password">
+                 <p class="ubah-data-2">GANTI PASSWORD</p>
+
+                <div class="card-form-2">
+                <form>
+                  <div class="mb-3 card-mb-2">
+                    <label for="pw_lama" class="form-label">Password Lama</label>
+                    <input type="text" class="form-control" id="pw_lama" >
+                  </div>
+                   <div class="mb-3 card-mb-2">
+                    <label for="pw_baru" class="form-label">Password Baru</label>
+                    <input type="text" class="form-control" id="pw_baru">
+                  </div>
+                  <div class="mb-3 card-mb-2">
+                    <label for="konfir_password" class="form-label">Konfirmasi Password Baru</label>
+                    <input type="text" class="form-control" id="konfir_password">
+                  </div>
+                   
+                  <button type="submit" class="btn-warna">Simpan</button>
+                </form>
+                </div>
+                <br>
+            </div>
+       </div>
+    </div>
+    
+
+
+    
+ <!-- FOOTER -->
+      <footer class="card-footer">
+        
+        <hr  style="border-width: 5px;" class="tebal-hr">
+        <div class="container-fluid">
+          <div class="row" style="font-family: montserrat; color: #141e46; margin-top: 45px;">
+          
+          <div class="col-lg-3 ms-2">
+            <p>
+              <img src="images/logo=lokatrendy-fix.png" alt="" width="265px">
+            </p>
+            <p style="font-size: 15px; ">
+              Lokatrendy adalah merek milik PT Melek Teknologi Indonesia.
+              Terdaftar pada Direktorat Komando Kekayaan Intelektual Republik Indonesia.
+            </p>
+          </div>
+          <div class="col-lg-2">
+            <p style="font-weight: bold; font-size: 20px;">Company</p>
+            <p style="font-weight: 500;">Home</p>
+            <p style="font-weight: 500;">Product & Service</p>
+            <p style="font-weight: 500;">Help</p>
+            <p style="font-weight: 500;">Career</p>
+            <p style="font-weight: 500;">Location</p>
+          </div>
+          <div class="col-lg-1">
+            <p style="font-weight: bold; font-size: 20px;">Help</p>
+            <p style="font-weight: 500;">Tutorial</p>
+            <p style="font-weight: 500;">Contact</p>
+            <p style="font-weight: 500;">Privacy</p>
+            <p style="font-weight: 500;">Terms</p>
+          </div>
+          <div class="col-lg-3 ms-4">
+            <p style="font-weight: bold; font-size: 20px;">Pembayaran</p>
+            <p>
+              <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="images/cod 1.png" alt="" style="width: 90x; height: 35px; padding: 6px 23px;">
+                <img src="images/bca-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/akulaku-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 0px 10px;">
+              </div>
+              <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="images/bri 1.png" alt="" style="width: 93px; height: 35px; padding: 9px 10px;">
+                <img src="images/mandiri 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/bni 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+              </div>
+              <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="images/permata-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="images/alfamart 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/ovo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 15px;">
+              </div>
+              <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="images/dana-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="images/linkaja-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 33px;">
+                <img src="images/qris-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+              </div>
+              <div class="d-flex gap-2 bayar-kirim">
+                <img src="images/visa 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="images/jcb 1.png" alt="" style="width: 93px; height: 35px; padding: 4px 30px;">
+                <img src="images/master 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+              </div>
+            </p>
+  
+            <p style="font-weight: bold; font-size: 20px;">Pengiriman</p>
+            <div class="d-flex gap-2 bayar-kirim">
+                <img src="images/jne_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/jnt_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/sicepat_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+          </div>
+          <div class="col-lg-2 ms-4">
+            <p align="right" style="font-weight: bold; font-size: 20px;">Connect With Us</p>
+            <div class="icon">
+              <span> <a href=""><i class="bi bi-instagram"> Instagram</i></a></span>
+                <span> <a href=""><i class="bi bi-tiktok"> TikTok</i> </a></span>
+                <span><a href=""><i class="bi bi-twitter">Twitter</i> </a></span>
+                      
+            </div>
+          </div>
+        </div>
+        <br><br>
+      </footer>
+
+
+
+        <script>
+        function showContent(contentId) {
+            // Sembunyikan semua konten
+            var contents = document.querySelectorAll('.content');
+            contents.forEach(function(content) {
+                content.classList.remove('active');
+            });
+
+            // Tampilkan konten yang sesuai dengan id
+            var contentToShow = document.getElementById(contentId);
+            contentToShow.classList.add('active');
+
+            // Hapus class active dari semua link
+            var links = document.querySelectorAll('.nav-link');
+            links.forEach(function(link) {
+                link.classList.remove('active');
+            });
+
+            // Tambahkan class active ke link yang diklik
+            var activeLink = document.querySelector('.texs-profile-2 a[onclick="showContent(\'' + contentId + '\')"]');
+            activeLink.classList.add('active');
+        }
+    </script>
+</body>
+</html>
