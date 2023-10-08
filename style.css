@@ -145,6 +145,7 @@ footer a {
   text-align: center;
   pointer-events: none;
   color: #aaa;
+<<<<<<< HEAD
 }
 
 .carousel-cell {
@@ -161,4 +162,6 @@ footer a {
 .flickity-prev-next-button {
   width: 30px !important;
   height: 30px !important;
+=======
+>>>>>>> 9afb5c33e345e6134a8aa513ffcc26ad55d562f3
 }
