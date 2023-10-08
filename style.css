@@ -129,3 +129,19 @@ footer a {
   pointer-events: none;
   color: #aaa;
 }
+
+.carousel-cell {
+  width: 22%;
+  height: 150px;
+  margin-right: 15px;
+  background: var(--primary);
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  padding: 20px;
+}
+
+/* big previous & next buttons */
+.flickity-prev-next-button {
+  width: 30px !important;
+  height: 30px !important;
+}
