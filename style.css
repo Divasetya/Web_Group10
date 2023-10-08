@@ -26,6 +26,14 @@ body {
   align-items: center;
 }
 
+.kartu {
+  padding: 2px; 
+  height: 70px; 
+  width: 180px; 
+  box-shadow: 0px 0px 3px rgb(196, 195, 195); 
+  border-radius: 15px;
+}
+
 .jumbotron {
   padding: 2rem 1rem;
   background-image: url("images/DTF.png");
@@ -34,7 +42,10 @@ body {
   height: 525px;
 }
 
-
+.fontDTF p {
+  color: #ffffff; 
+  font-family: poppins;
+}
 
 .tebal-hr {
   color: #C70039;
@@ -42,7 +53,13 @@ body {
   /* style="background-color: #FFE3E3;" */
 }
 
-
+.CompanyHelp {
+  font-weight: 500;
+}
+.CompanyHelp p:nth-child(1){
+  font-weight: bold;
+  font-size: 20px;
+}
 
 .bayar-kirim img {
   background-color: white;
