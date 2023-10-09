@@ -44,7 +44,7 @@ body {
 
 .fontDTF p {
   color: #ffffff; 
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
 }
 
 .tebal-hr {
@@ -64,7 +64,6 @@ body {
 .bayar-kirim img {
   background-color: white;
   border: black;
-  /* padding: 6px 10px; */
   box-shadow: 1px 1px 2px rgb(152, 152, 152);
   border-radius: 5px;
 
@@ -79,11 +78,9 @@ body {
 .icon>span>a {
   background-color: #141E46;
   color: white;
-  /* padding: 6px 8px; */
   border-radius: 5px;
   font-size: 18px;
   font-weight: 500;
-  /* margin: 12px; */
   text-decoration: none;
   float: right;
 }
@@ -146,8 +143,6 @@ footer a {
   text-align: center;
   pointer-events: none;
   color: #aaa;
-<<<<<<< HEAD
-=======
 }
 
 .carousel-cell {
@@ -164,5 +159,19 @@ footer a {
 .flickity-prev-next-button {
   width: 30px !important;
   height: 30px !important;
->>>>>>> 0042603e999386d7a129fbc10ce8bdf19b7e10b2
+}
+
+.category-product .rounded-pill-secondary{
+  border: 1px solid var(--secondary);
+  color: var(--white);
+  background-color: var(--secondary);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.category-product .rounded-pill-outline-secondary{
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+  padding-right: 15px;
+  padding-left: 15px;
 }
