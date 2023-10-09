@@ -109,7 +109,7 @@ body {
 }
 
 .carS2 {
-  background-image: url("images/carousel 2.png");
+  background-image: url("../../images/carousel 2.png");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -151,7 +151,7 @@ body {
 
 .jumbotronDTF {
   padding: 2rem 1rem;
-  background-image: url("images/DTF.png");
+  background-image: url("../../images/DTF.png");
   background-size: 585px;
   background-repeat: no-repeat;
   height: 525px;
