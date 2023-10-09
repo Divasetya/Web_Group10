@@ -290,3 +290,11 @@ footer a {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.element-item{
+  width: 24.33%;
+}
+
+.product-item{
+  position: relative;
+}
