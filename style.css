@@ -19,6 +19,121 @@ body {
 
 }
 
+.searchbar input{
+  font-size: 12px;
+}
+.searchbar span {
+  background-color: #DADADA;
+  width: 45px;
+  font-size: 12px;
+}
+
+.btnMasuk {
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnMasuk:hover {
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  background-color: #C70039;
+}
+.btnDaftar {
+  background-color: #141E46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDaftar:hover {
+  background-color: #141E46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.hoverku:hover {
+  color: #141E46;
+  padding: 4px;
+}
+
+.btnBuatSkrg {
+  font-size: 15px;
+  font-weight: 500;
+
+  background-color: #141E46;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-color: transparent;
+}
+
+.padCar {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.headCarS1 {
+  font-weight: 800;
+  font-size: 35px;
+  color: #C70039;
+}
+
+.btnUnggah {
+  color: #C70039;
+  font-weight: 500;
+  
+  border-color: #C70039;
+  border-width: 2px;
+  background-color: white;
+}
+
+.skBerlaku {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.headCarS2_1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.btnShopNow {
+  border-color: transparent;
+  background-color: white;
+  color: #141e46;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btnShopNow img {
+  background-color: #141E46;
+}
+
+.carS2 {
+  background-image: url("images/carousel 2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.btnCar {
+  background-color: white;
+  border-radius: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.fontBranding1 {
+  font-weight: bold;
+  font-size: 15px;
+  color: #141E46;
+}
+.fontBranding2 {
+  font-size: 10px;
+  color: #141E46;
+}
+
 #kerja-sama {
   background-color: #FDFCFA;
   height: 51vh;
@@ -34,7 +149,7 @@ body {
   border-radius: 15px;
 }
 
-.jumbotron {
+.jumbotronDTF {
   padding: 2rem 1rem;
   background-image: url("images/DTF.png");
   background-size: 585px;
