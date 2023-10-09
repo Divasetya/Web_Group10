@@ -88,10 +88,16 @@ margin-left: 30px;
     font-style: italic;
 }
 .btn-submit-warna{
-
 background-color: #141E46;
 color: #FFFFFF;
 margin: 12px;
+}
+
+.btn-submit-warna > a {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .btn-submit-warna:hover{
