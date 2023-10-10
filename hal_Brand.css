@@ -1,0 +1,184 @@
+:root {
+    --primary: #C70039;
+    --secondary: #141E46;
+    --white: #FDFCFA;
+    --pink: #FFE3E3;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+.searchbar input {
+  font-size: 12px;
+}
+.searchbar span {
+  background-color: #dadada;
+  width: 45px;
+  font-size: 12px;
+}
+
+.btnMasuk {
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnMasuk:hover {
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  background-color: #c70039;
+}
+.btnDaftar {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDaftar:hover {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbarDiva {
+  color: white;
+}
+.navbarDiva:hover {
+  color: #141e46;
+  padding: 4px;
+}
+
+.btnBuatSkrg {
+  font-size: 15px;
+  font-weight: 500;
+
+  background-color: #141e46;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-color: transparent;
+}
+
+/* brand terbaru */
+.headBrand {
+    color: #141e46;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.teksBrand {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.teksJmlProduk {
+    font-size: 18px;
+    color: white;
+}
+.btn-primary-dongker {
+    background-color: #141E46;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.px-4-padBut {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btnku {
+  border-width: 1px;
+  border-color: #141E46;
+  color: #141E46;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 0px;
+  width: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btnku:hover {
+  border-width: 1px;
+  border-color: #141E46;
+  color: #141E46;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 0px;
+  width: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* footer */
+.tebal-hr {
+  color: #c70039;
+  height: 5px;
+}
+
+.CompanyHelp {
+  font-weight: 500;
+}
+.CompanyHelp p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bayar-kirim img {
+  background-color: white;
+  border: black;
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon > span > a {
+  background-color: #141e46;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  float: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.btn-primary-pink {
+  background-color: var(--primary);
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-primary-pink:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-secondary-black {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary-black:hover {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.btn-outline-secondary-black {
+  border: 1px solid var(--secondary);
+}
+
+.btn-outline-secondary-black:hover {
+  border: 1px solid var(--secondary);
+}
