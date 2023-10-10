@@ -12,8 +12,8 @@
 
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="../assets/css/profile.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/profile-pembelian.css">
+    <title>Halaman Profile Pembelian</title>
 </head>
 <body>
 
@@ -58,7 +58,7 @@
         </div>
     </nav>
 
-    <div class="content-wrapper">
+<div class="content-wrapper">
     <div class="container">
        <div class="card">
         <div class="card-kotak">
@@ -78,8 +78,8 @@
 
          <div class="texs-profile">
                 <ul>
-                 <li><a href="#">PROFILE</a></li>
-                  <li><a href="profile-pembelian.html">PEMBELIAN</a></li>
+                 <li><a href="hal-profile.html">PROFILE</a></li>
+                  <li><a href="#">PEMBELIAN</a></li>
                    <li><a href="profile-brand.html">BRAND</a></li>
                     <li><a href="">LOGOUT</a></li>
                 </ul>
@@ -87,169 +87,247 @@
        </div>
        <!-- // -->
         <div class="card-2">
-            <span>PROFILE</span>
+            <span>PEMBELIAN</span>
             <br>
             <br>
         <div class="card-kotak-2">
             <div class="texs-profile-2">
                 <ul>
-                <li><a href="#" class="nav-link active" onclick="showContent('biodata')">BIODATA DIRI</a></li>
-                    <li><a href="#" class="nav-link" onclick="showContent('alamat')">DAFTAR ALAMAT</a></li>
-                    <li><a href="#" class="nav-link" onclick="showContent('rekening')">REK. BANK</a></li>
-                    <li><a href="#" class="nav-link" onclick="showContent('password')">PASSWORD</a></li>
+                <li><a href="#" class="nav-link active" onclick="showContent('semua')">SEMUA</a></li>
+                    <li><a href="#" class="nav-link" onclick="showContent('belum-bayar')">BELUM BAYAR</a></li>
+                    <li><a href="#" class="nav-link" onclick="showContent('dipacking')">DIPACKING</a></li>
+                    <li><a href="#" class="nav-link" onclick="showContent('dikirim')">DIKIRIM</a></li>
+                      <li><a href="#" class="nav-link" onclick="showContent('selesai')">SELESAI</a></li>
                 </ul>
          </div> 
         </div>
          <!-- /////BIODATA -->
-            <div class="content active" id="biodata">
-                <div class="profile-img-3">
-               <img  src="../images/pp1.png" alt="">
-                </div>
-                  <button type="submit" class=" btn-ubah">Ubah</button>
+            <div class="content active" id="semua">
                 
-                      <p class="ubah-data ">UBAH DATA DIRI SAYA</p>
-
-                <div class="card-form">
-                <form>
-                  <div class="mb-3 card-mb-1">
-                    <label for="nama" class="form-label">Nama Lengkap</label>
-                    <input type="text" class="form-control" id="nama" >
-                  </div>
-                   <div class="mb-3 card-mb-1">
-                    <label for="email" class="form-label">Alamat Email</label>
-                    <input type="email" class="form-control" id="email">
-                  </div>
-                  <div class="mb-3 card-mb-1">
-                    <label for="no_telepon" class="form-label">No. Telpon / No. Hp</label>
-                    <input type="text" class="form-control" id="no_telepon">
-                  </div>
-                   <div class="mb-3 card-mb-1">
-                    <label for="tgl_lahir" class="form-label">Tanggal Lahir</label>
-                    <input type="date" class="form-control" id="tgl_lahir">
-                  </div>
-                   <div class="mb-3 card-mb-1">
-                    <label for="jenis_kelamin" class="form-label">Jenis Kelamin</label>
-                    <select class="form-select" id="jenis_kelamin">
-                        <option value="1">Laki-laki</option>
-                        <option value="2">Perempuan</option>
-                    </select>
-                </div>
-                  <button type="submit" class="btn-warna">Simpan</button>
-                </form>
-                </div>
-                <br>
+                    <div class="card-pembelian">
+                      <p>Ups... Belum ada pembelian</p>
+                    </div>
             </div>
 
 <!-- DAFTAR-ALAMAT -->
-            <div class="content " id="alamat">
+            <div class="content " id="belum-bayar">
                
-                 <p class="ubah-data-2">Alamat Saya</p>
+                <div class="card-pembelian">
+                      <p>Ups... Belum ada pembelian-</p>
+                    </div>
 
-                <div class="card-form-2">
-                <form>
-                  <div class="mb-3 card-mb-2">
-                    <label for="nama_penerima" class="form-label">Nama Penerima</label>
-                    <input type="text" class="form-control" id="nama_penerima" >
-                  </div>
-                   <div class="mb-3 card-mb-2">
-                    <label for="no_telpon" class="form-label">No. Telpon / No. Hp</label>
-                    <input type="text" class="form-control" id="no_telpon">
-                  </div>
-                  <div class="mb-3 card-mb-2">
-                    <label for="provinsi" class="form-label">Provinsi</label>
-                    <input type="text" class="form-control" id="provinsi">
-                  </div>
-                   <div class="mb-3 card-mb-2">
-                    <label for="kabupaten" class="form-label">Kabupaten/Kota</label>
-                    <input type="text" class="form-control" id="kabupaten">
-                  </div>
-                   
-                   <div class="mb-3 card-mb-2">
-                    <label for="kecamatan" class="form-label">Kecamatan</label>
-                    <input type="text" class="form-control" id="kecamatan">
-                  </div>
-                  <div class="mb-3 card-mb-2">
-                    <label for="kode_pos" class="form-label">Kode Pos</label>
-                    <input type="text" class="form-control" id="kode_pos">
-                  </div>
-                   <div class="mb-3 card-mb-2">
-                    <label for="kode_pos" class="form-label">Kode Pos</label>
-                    <textarea class="form-control" name="" id="" cols="" rows="5"></textarea>
-                  </div>
-
-                  <button type="submit" class="btn-warna">Simpan</button>
-                </form>
-                </div>
-                <br>
+              
           </div>
             
                 
-            <div class="content" id="rekening">
-                 <p class="ubah-data-2">REK. BANK SAYA</p>
+            <div class="content" id="dipacking">
+                 <div class="card-pembelian">
+                      <p>Ups... Belum ada pembelian</p>
+                    </div>
 
-                <div class="card-form-2">
-                <form>
-                  <div class="mb-3 card-mb-2">
-                    <label for="rek_bank" class="form-label">Nama Bank</label>
-                    <input type="text" class="form-control" id="rek_bank" >
-                  </div>
-                   <div class="mb-3 card-mb-2">
-                    <label for="nama_pemilik_bank" class="form-label">Nama Pemilik Bank</label>
-                    <input type="text" class="form-control" id="nama_pemilik_bank">
-                  </div>
-                  <div class="mb-3 card-mb-2">
-                    <label for="no_rek" class="form-label">No. Rekening Bank</label>
-                    <input type="text" class="form-control" id="no_rek">
-                  </div>
-                   
-                  <button type="submit" class="btn-warna">Simpan</button>
-                </form>
-                </div>
+               
                 <br>
             </div>
 
 
-            <div class="content" id="password">
-                 <p class="ubah-data-2">GANTI PASSWORD</p>
+            <div class="content" id="dikirim">
+             <div class="card-pembelian">
+                      <p>Ups... Belum ada pembelian</p>
+                    </div>
 
-                <div class="card-form-2">
-                <form>
-                  <div class="mb-3 card-mb-2">
-                    <label for="pw_lama" class="form-label">Password Lama</label>
-                    <input type="text" class="form-control" id="pw_lama" >
-                  </div>
-                   <div class="mb-3 card-mb-2">
-                    <label for="pw_baru" class="form-label">Password Baru</label>
-                    <input type="text" class="form-control" id="pw_baru">
-                  </div>
-                  <div class="mb-3 card-mb-2">
-                    <label for="konfir_password" class="form-label">Konfirmasi Password Baru</label>
-                    <input type="text" class="form-control" id="konfir_password">
-                  </div>
-                   
-                  <button type="submit" class="btn-warna">Simpan</button>
-                </form>
-                </div>
+               
                 <br>
             </div>
-            
- <br>
- <br>
- <br>
- <br>
-  <br>
- <br>
- <br>
- <br>
-  <br>
- <br>
- <br>
- <br>
+
+             <div class="content" id="selesai">
+             <div class="card-pembelian">
+                      <p>Ups... Belum ada pembelian</p>
+                    </div>
+
+               
+                <br>
+            </div>
        </div>
-       
+
+
+       <div class="container-card">
+        <h3>REKOMENDASI UNTUK KAMU</h3>
+            <div class="card-3">
+                    <div class="card-kaos ">
+                        <div class="img-kaos">
+                        <img src="../images/newest_product/anime.png" alt="">
+                        </div>
+                      <div class="tipe-kaos">
+                       
+                        <div class="tipe-tipe-kaos">
+                            <p>UMKM</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>ANIME</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>GAME</p>
+                        </div>
+                    </div>
+                      <div class="judul-kaos ">
+                        <p>Astronaut</p>
+                      </div>
+                      <div class="nama-brand ">
+                        <p>TROBBY.CLOTH</p>
+                      </div>
+                       <div class="harga-kaos">
+                        <p>Rp. 105.000,00</p>
+                      </div>
+
+                        <div class="terjual">
+                        <p><span>5</span> Terjual</p>
+                      </div>
+                      <br>
+                  </div>
+
+
+                    <div class="card-kaos ">
+                        <div class="img-kaos">
+                        <img src="../images/newest_product/anime.png" alt="">
+                        </div>
+                      <div class="tipe-kaos">
+                       
+                        <div class="tipe-tipe-kaos">
+                            <p>UMKM</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>ANIME</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>GAME</p>
+                        </div>
+                    </div>
+                       <div class="judul-kaos ">
+                        <p>Astronaut</p>
+                      </div>
+                      <div class="nama-brand ">
+                        <p>TROBBY.CLOTH</p>
+                      </div>
+                       <div class="harga-kaos">
+                        <p>Rp. 105.000,00</p>
+                      </div>
+
+                        <div class="terjual">
+                        <p><span>5</span> Terjual</p>
+                      </div>
+                      <br>
+                  </div>
+
+
+                    <div class="card-kaos ">
+                        <div class="img-kaos">
+                        <img src="../images/newest_product/anime.png" alt="">
+                        </div>
+                      <div class="tipe-kaos">
+                       
+                        <div class="tipe-tipe-kaos">
+                            <p>UMKM</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>ANIME</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>GAME</p>
+                        </div>
+                    </div>
+                       <div class="judul-kaos ">
+                        <p>Astronaut</p>
+                      </div>
+                      <div class="nama-brand ">
+                        <p>TROBBY.CLOTH</p>
+                      </div>
+                       <div class="harga-kaos">
+                        <p>Rp. 105.000,00</p>
+                      </div>
+
+                        <div class="terjual">
+                        <p><span>5</span> Terjual</p>
+                      </div>
+                      <br>
+                  </div>
+
+                    <div class="card-kaos ">
+                        <div class="img-kaos">
+                        <img src="../images/newest_product/anime.png" alt="">
+                        </div>
+                      <div class="tipe-kaos">
+                       
+                        <div class="tipe-tipe-kaos">
+                            <p>UMKM</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>ANIME</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>GAME</p>
+                        </div>
+                    </div>
+                         <div class="judul-kaos ">
+                        <p>Astronaut</p>
+                      </div>
+                      <div class="nama-brand ">
+                        <p>TROBBY.CLOTH</p>
+                      </div>
+                       <div class="harga-kaos">
+                        <p>Rp. 105.000,00</p>
+                      </div>
+
+                        <div class="terjual">
+                        <p><span>5</span> Terjual</p>
+                      </div>
+                      <br>
+                  </div>
+
+
+                    <div class="card-kaos ">
+                        <div class="img-kaos">
+                        <img src="../images/newest_product/anime.png" alt="">
+                        </div>
+                      <div class="tipe-kaos">
+                       
+                        <div class="tipe-tipe-kaos">
+                            <p>UMKM</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>ANIME</p>
+                        </div>
+                          <div class="tipe-tipe-kaos">
+                            <p>GAME</p>
+                        </div>
+                    </div>
+                     <div class="judul-kaos ">
+                        <p>Astronaut</p>
+                      </div>
+                      <div class="nama-brand ">
+                        <p>TROBBY.CLOTH</p>
+                      </div>
+                       <div class="harga-kaos">
+                        <p>Rp. 105.000,00</p>
+                      </div>
+
+                        <div class="terjual">
+                        <p><span>5</span> Terjual</p>
+                      </div>
+                      <br>
+                       
+                  </div>
+
+         </div>
+     </div> 
+
+
     </div>
     </div>
-   <br>
+
+       <br>
+    
+        <!-- rekomendasi untuk kamu -->
+
 
     
  <!-- FOOTER -->

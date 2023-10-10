@@ -35,7 +35,6 @@ body {
 
 
 
-
 .btn-secondary-black {
   background-color: var(--secondary);
   color: white;
@@ -77,10 +76,12 @@ margin-left: -30px;
     /* background: #144624; */
   height: 781px;
     margin-top: 160px;
+ flex: 1;
  
-  flex: 1;
     
 }
+
+
 
 .card{
     background: var(--white);
@@ -197,7 +198,7 @@ justify-content: center;
 .texs-profile-2 > ul {
     list-style: none;
     display: flex;
-     gap: 100px;
+     gap: 90px;
 
     margin-top: 12px;
 
@@ -221,103 +222,125 @@ display: block;
 }
 
 
-.form-control:focus {
-    border: none;
-    box-shadow: 0 0 0 0.2rem rgba(163, 1, 1, 0.305);
-}
 
-/* ///// biodata */
-.profile-img-3 > img{
-   border-radius: 99px;
-  width: 148px;
-    height: 148px;
- margin-top: 50px;
- margin-left: 140px;
-border: 4px solid var(--primary);
-}
-
-.ubah-data{
-margin-left: 320px;
-margin-top: -190PX;
-position: absolute;
-font-size: 18px;
-font-weight: 700;
-width: 240px;
-}
-
-.card-form{
-    width: 383px;
-    margin-left: 340px;
-    margin-top: -150px;
-    display: flex;
+.card-pembelian{
+    /* background: #09c610; */
+    height: 400px;
     align-items: center;
     justify-content: center;
-}
-
-.card-mb-1{
-    width: 350px;
-}
-
-.btn-warna{
-    background: var(--secondary);
-    float: right;
-    color: var(--white);
-    border: none;
-    width: 133px;
-    height: 37px;
-border-radius: 10px;
-}
-
-.btn-warna:hover{
-    background: #353d5c;
+    display: flex;
    
 }
 
-.btn-ubah{
-    background: var(--secondary);
-    color: var(--white);
-    border: none;
-    width: 133px;
-    height: 37px;
-    border-radius: 10px;
-    margin-top: 12px;
- margin-left: 147px;
-}
-
-.btn-ubah:hover{
-    background: #353d5c;
+.container-card{
+ 
+ margin-top: 190px;
+  
    
 }
-
-
-/* ///daftaralamat */
-.card-form-2{
-margin-top: 80px;
-/* margin-left: 190px; */
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.ubah-data-2{
-margin-left: 160px;
-margin-top: -40px;
-position: absolute;
-font-size: 18px;
+.container-card > h3{
+    font-size: 30px;
+font-style: normal;
 font-weight: 700;
-width: 240px;
+   
 }
 
+.card-3 {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+}
 
- .card-mb-2{
- width: 450px;
+.card-kaos{
+    background:var(--white);
+    box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    width: 256px;
+/* height: 357px; */
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px;
+flex-direction: column;
 
- }
+}
+
+.img-kaos{
+   width: 236px;
+height: 230px;
+/* background: #C70039; */
+margin-top: 12px;
+}
+
+.tipe-kaos{
+    /* position: absolute; */
+  flex-wrap: wrap;
+   display: flex;
+   width: 100%;
+    margin-left: 16px;
+}
+.tipe-tipe-kaos{
+   margin: 2px;
+   background: #FDFCFA;
+   width: 50px;
+height: 21px;
+border-radius: 20px;
+border: 1px solid #727272;
+}
+.tipe-tipe-kaos >p{
+  color: #727272;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+margin-top: 3px;
 
 
+}
+.judul-kaos{
+    width: 100%;
+    margin-left: 16px;
+       font-size: 18px;
+font-style: normal;
+font-weight: 500;
+color: #030303;
+}
+.nama-brand{
+    width: 100%;
+    margin-left: 16px;
+    font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}
+
+.harga-kaos{
+    width: 100%;
+    margin-left: 16px; 
+    font-size: 15px;
+font-style: normal;
+font-weight: 700;
+}
+
+.terjual{
+    /* background: #C70039; */
+   margin-top: -25px;
+  margin-left: 190px;
+  color: #686868;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}
+
+.judul-kaos p,
+.nama-brand p,
+.harga-kaos p,
+.terjual p {
+  margin: 2px;
+}
   /* //foter */
 .card-footer{
-   position: absolute;
     background: var(--pink);
 }
 
