@@ -291,32 +291,75 @@
       background: #353d5c;
      
   }
+  .card-container {
+    margin-top: 12px;
+    display: flex;
+    /* background: #885664; */
+    width: 488px;
+    margin-left: 120px;
+    flex-wrap: wrap;
+ 
+}
+  .card-saldoku{
+    width: 219px;
+    height: 141px;
+    background: #141E46;
+     margin: 12px;
+    
+border-radius: 10px;
+  }
+
+  .card-saldoku > .texs-saldo{
+    margin-left: 12px;
+    margin-top: 4px;
+  }
+  .texs-saldo{
+    color: var(--white);
+    margin-left: 120px;
+   font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+   margin: 0 ;
+  }
+
+  .nominal-saldo{
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+  }
+ .btn-tarik{
+ background: var(--secondary);
+      color: var(--white);
+      border: none;
+      width: 580px;
+      height: 37px;
+      border-radius: 10px;
+      margin-top: 12px;
+   margin-left: 130px;
+ }
   
-  
-  /* ///daftaralamat */
-  .card-form-2{
-  margin-top: 80px;
-  /* margin-left: 190px; */
+   .btn-tarik:hover{
+      background: #353d5c;
+    
+    
+  }
+.card-table{
+ 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  width: 580px;
+  /* height: 190px; */
+  margin-top: 25px;
+   margin-left: 130px;
+  border-radius: 10px;
+border: 1px solid var(--sekunder, #141E46);
+
+
+}
+  .table{
+   
+    margin-top: 12px;
   }
-  
-  .ubah-data-2{
-  margin-left: 160px;
-  margin-top: -40px;
-  position: absolute;
-  font-size: 18px;
-  font-weight: 700;
-  width: 240px;
-  }
-  
-  
-   .card-mb-2{
-   width: 450px;
-  
-   }
-  
   
     /* //foter */
   .card-footer{
