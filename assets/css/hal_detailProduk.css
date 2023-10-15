@@ -1,0 +1,283 @@
+:root {
+    --primary: #C70039;
+    --secondary: #141E46;
+    --white: #FDFCFA;
+    --pink: #FFE3E3;
+    --bluetext: #0D3D64;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.frame {
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0 0 5px 1px rgba(177, 177, 177, 0.922);
+}
+
+/* navbar */
+.btnSearch {
+  font-size: 13px;
+  color: #666;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.btnMasuk {
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnMasuk:hover {
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  background-color: #c70039;
+}
+.btnDaftar {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDaftar:hover {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbarDiva {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+.navbarDiva:hover {
+  color: #141e46;
+  padding-top: 4px;
+  transition: padding 0.5s;
+  text-decoration: none;
+}
+
+.btnBuatSkrg {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+  background-color: #141e46;
+}
+
+/* detail produk */
+.sekatHeadDetail {
+  width: 73%;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.cardVar1 {
+  background-color: #F1F1F1;
+  border-radius: 0px;
+  border-color: #3FAAFF;
+  border-width: 3px;
+  box-shadow: 0px 0px 10px 3px rgba(126, 126, 126, 0.345);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.cardVar2 {
+  background-color: #F1F1F1;
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0px 0px 10px 3px rgba(126, 126, 126, 0.345);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#var1 {
+  width: 105px;
+}
+#var2 {
+  width: 105px;
+}
+
+.header1Detail {
+  font-size: 20px;
+  font-weight: 600;
+}
+.header2Detail {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.warnaBadge {
+  background-color: var(--secondary);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btnDetail {
+  border-color: rgb(219, 219, 219);
+  border-width: 1px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: var(--bluetext);
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDetailSec {
+  background-color: var(--secondary);
+  color: white;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDetailPrim {
+  background-color: var(--primary);
+  color: white;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* toko */
+.btnToko {
+  border-color: var(--secondary);
+  border-width: 1.5px;
+  background-color: white;
+  color: var(--secondary);
+  font-size: 15px;
+}
+
+/* produk lain dari toko ini */
+.cardku {
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0px 0px 10px 3px rgba(126, 126, 126, 0.345);
+  margin-right: 5%;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 3%;
+}
+
+.teksDesain {
+  font-size: 20px;
+  color: #0D3D64;
+  font-weight: 500;
+}
+.teksHarga {
+  font-size: 18px;
+  color: #0D3D64;
+  font-weight: bold;
+}
+.teksPenjual {
+  font-size: 15px;
+  color: #0D3D64;
+  font-weight: 500;
+}
+.teksTerjual {
+  font-size: 12px;
+  color: #A3A4A5;
+  font-weight: 500;
+}
+
+/* produk lainnya */
+.btnku {
+  border-width: 1.5px;
+  border-color: #141E46;
+  color: #141E46;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 0px;
+  width: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btnku:hover {
+  border-width: 1px;
+  border-color: #141E46;
+  color: #141E46;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 0px;
+  width: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* footer */
+.tebal-hr {
+  opacity: 1;
+  color: #c70039;
+}
+
+.CompanyHelp {
+  font-weight: 500;
+}
+.CompanyHelp p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bayar-kirim img {
+  background-color: white;
+  border: black;
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon > span > a {
+  background-color: #141e46;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  float: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.btn-primary-pink {
+  background-color: var(--primary);
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-primary-pink:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-secondary-black {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary-black:hover {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.btn-outline-secondary-black {
+  border: 1px solid var(--secondary);
+}
+
+.btn-outline-secondary-black:hover {
+  border: 1px solid var(--secondary);
+}
