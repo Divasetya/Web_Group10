@@ -96,8 +96,12 @@
                     <button class="btn btnDetail" type="button">Lengan Pendek</button>
                     <button class="btn btnDetail" type="button">Lengan Panjang</button>
                     <p class="my-2 header2Detail">Jumlah</p>
-                    <p>-button tambah keranjang-</p>
-                    <p class="my-2 header1Detail">Harga :</p>
+                    <div class="d-flex align-items-center">
+                      <button class="btn btnJumlah" onclick="decrease()">-</button>
+                      <span id="quantity" class="mx-1 px-3 py-1 card" style="height: 30px; font-size: 15px;">1</span>
+                      <button class="btn btnJumlah" onclick="increase()">+</button>
+                    </div>
+                    <p class="my-2 header1Detail">Harga : -</p>
                     <button class="btn btnDetailSec" type="button">Masukkan Keranjang</button>
                     <button class="btn btnDetailPrim" type="button">Bayar Sekarang</button>
                     <button class="btn btnDetail"><i class="bi bi-share"></i></button>
@@ -328,13 +332,31 @@
         <br><br>
     </footer>
 
+    <!-- js menampilkan varian baju -->
     <script>
-        function changeImage(imageUrl, varId) {
-            document.getElementById('bajuDetailProduk').src = imageUrl;
-            document.getElementById('var1').style.border = varId === 'var1' ? '3px solid #3FAAFF' : '2px solid transparent';
-            document.getElementById('var2').style.border = varId === 'var2' ? '3px solid #3FAAFF' : '2px solid transparent';
-        }
-    </script>
+      function changeImage(imageUrl, varId) {
+          document.getElementById('bajuDetailProduk').src = imageUrl;
+          document.getElementById('var1').style.border = varId === 'var1' ? '3px solid #3FAAFF' : '2px solid transparent';
+          document.getElementById('var2').style.border = varId === 'var2' ? '3px solid #3FAAFF' : '2px solid transparent';
+      }
+  </script>
+
+  <!-- js untuk tombol "jumlah" -->
+  <script>
+      let quantity = 1;
+  
+      function increase() {
+          quantity += 1;
+          document.getElementById('quantity').innerText = quantity;
+      }
+  
+      function decrease() {
+          if (quantity > 1) {
+              quantity -= 1;
+              document.getElementById('quantity').innerText = quantity;
+          }
+      }
+  </script>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
