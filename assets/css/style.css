@@ -19,15 +19,11 @@ body {
 
 }
 /* navbar */
-
-
-.searchbar input{
-  font-size: 12px;
-}
-.searchbar span {
-  background-color: #DADADA;
-  width: 45px;
-  font-size: 12px;
+.btnSearch {
+  font-size: 13px;
+  color: #666;
+  margin-right: 7px;
+  margin-left: 7px;
 }
 
 .btnMasuk {
@@ -38,38 +34,41 @@ body {
   font-weight: 500;
   font-size: 15px;
   color: white;
-  background-color: #C70039;
+  background-color: #c70039;
 }
 .btnDaftar {
-  background-color: #141E46;
+  background-color: #141e46;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
 .btnDaftar:hover {
-  background-color: #141E46;
+  background-color: #141e46;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
 
 .navbarDiva {
+  font-size: 15px;
   color: white;
+  text-decoration: none;
 }
 .navbarDiva:hover {
-  color: #141E46;
-  padding: 4px;
+  color: #141e46;
+  padding-top: 4px;
+  transition: padding 0.5s;
+  text-decoration: none;
 }
 
 .btnBuatSkrg {
+  color: white;
   font-size: 15px;
   font-weight: 500;
 
-  background-color: #141E46;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-color: transparent;
+  background-color: #141e46;
 }
+
 /* carousel */
 .padCar {
   padding-left: 70px;
@@ -170,7 +169,7 @@ body {
 .tebal-hr {
   color: #C70039;
   height: 5px;
-  /* style="background-color: #FFE3E3;" */
+  opacity: 1;
 }
 
 .CompanyHelp {
