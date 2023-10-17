@@ -157,10 +157,9 @@ margin: 12px;
 }
 
 .tebal-hr {
-color: #C70039;
-   
-   height: 5px;
-     /* style="background-color: #FFE3E3;" */
+  color: #C70039;
+  height: 5px;
+  opacity: 1;
 }
 
 
