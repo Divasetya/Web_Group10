@@ -13,13 +13,11 @@
 }
 
 /* navbar */
-.searchbar input {
-  font-size: 12px;
-}
-.searchbar span {
-  background-color: #dadada;
-  width: 45px;
-  font-size: 12px;
+.btnSearch {
+  font-size: 13px;
+  color: #666;
+  margin-right: 7px;
+  margin-left: 7px;
 }
 
 .btnMasuk {
@@ -46,21 +44,23 @@
 }
 
 .navbarDiva {
+  font-size: 15px;
   color: white;
+  text-decoration: none;
 }
 .navbarDiva:hover {
   color: #141e46;
-  padding: 4px;
+  padding-top: 4px;
+  transition: padding 0.5s;
+  text-decoration: none;
 }
 
 .btnBuatSkrg {
+  color: white;
   font-size: 15px;
   font-weight: 500;
 
   background-color: #141e46;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-color: transparent;
 }
 
 /* brand terbaru */
@@ -117,6 +117,7 @@
 .tebal-hr {
   color: #c70039;
   height: 5px;
+  opacity: 1;
 }
 
 .CompanyHelp {
