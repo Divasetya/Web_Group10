@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/hal_artikel.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top" style="background-color: #C70039; box-shadow: 0px 2px 5px 1px rgb(152, 152, 152);">
+        <div class="container-fluid px-5 pt-3">
+            <div class="d-flex justify-content-between w-100 gap-3 align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="images/lokatrendy-white.png" alt="" class="searchBarku">
+                </a>
+                <form class="d-flex w-100 align-items-center me-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Cari Kaos atau Brand"
+                            aria-label="Cari Kaos atau Brand" aria-describedby="button-addon2" 
+                            style="font-size: 12px;">
+                        <button class="btn" type="button" style="background-color: #DADADA;">
+                            <i class="fa-solid fa-magnifying-glass btnSearch"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="d-flex gap-2">
+                  <a href="login.html" class="btn btn-outline-light btnMasuk" type="button">Masuk</a>
+                  <a href="daftar.html" class="btn btnDaftar" type="button">Daftar</a>
+                </div>
+            </div>
+            <div class="mt-3 mb-0 d-flex justify-content-between w-100">
+                <div class="d-flex gap-4 nav-link pt-2">
+                    <a class="navbarDiva" href="index.html">Beranda</a>
+                    <a class="navbarDiva" href="hal_Brand.html">Brand</a>
+                    <a class="navbarDiva" href="index.html">Weekly Bestseller</a>
+                    <a class="navbarDiva" href="hal_produk.html">Produk</a>
+                    <a class="navbarDiva" href="hal_artikel.html">Artikel</a>
+                </div>
+                <div>
+                    <a href="hal-unggah-produk.html" class="btn btnBuatSkrg rounded-5 px-4">Buat Sekarang <i
+                            class="fa-solid fa-chevron-right" style="font-size: 12px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div style="height: 26vh;"></div>
+
+    <!-- FASHION ARTICLE OF THE WEEK -->
+    <section class="container-fluid px-5">
+      <span class="headerTeks">FASHION ARTICLE OF THE WEEK</span>
+      <div class="my-4">
+        <span class="badge badgeArtikel px-2 py-1 rounded-3">Anime</span>
+        <span class="badge badgeArtikel px-2 py-1 rounded-3">Game</span>
+        <span class="badge badgeArtikel px-2 py-1 rounded-3">Kemerdekaan</span>
+        <span class="badge badgeArtikel px-2 py-1 rounded-3">Marvel</span>
+        <span class="badge badgeArtikel px-2 py-1 rounded-3">UMKM</span>
+        <span class="badge badgeArtikel px-2 py-1 rounded-3">Meme</span>
+      </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade marginCarousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active p-4 d-flex flex-column justify-content-between bgCarousel" style="background-image: url(images/carousselArtikel1.png);">
+            <span class="badge rounded-3 px-3 py-2 newArtikel">NEW</span>
+            <span class="captCarArtikel">Kenapa Bisnis Distro digemari Kalangan Anak Muda?</span>
+          </div>
+          <div class="carousel-item p-4 d-flex flex-column justify-content-between bgCarousel" style="background-image: url(images/carousselArtikel2.png);">
+            <span class="badge rounded-3 px-3 py-2 newArtikel">NEW</span>
+            <span class="captCarArtikel">Mengenal Distro dan Clothing</span>
+          </div>
+          <div class="carousel-item p-4 d-flex flex-column justify-content-between bgCarousel" style="background-image: url(images/carousselArtikel3.png);">
+            <span class="badge rounded-3 px-3 py-2 newArtikel">NEW</span>
+            <span class="captCarArtikel">20 Tahun Merajalela, Inilah Keunikan Kaos Distro dan Desainnya</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MORE ARTICLE -->
+    <section class="container-fluid px-5 pb-5">
+        <p class="headerTeks">MORE ARTICLE</p>
+        <div class="card cardArtikel mb-3">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="images/artikel1.png" class="gmbrArtikel" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body teksCard">
+                  <h5 class="card-title headArtikel">6 Alasan Kaos Distro Populer</h5>
+                  <p class="card-text ringkasArtikel lh-1">Kaos distro biasanya memiliki desain yang khas dan berbeda dari kaos konvensional yang bisa Knittopreneurs temui di toko-toko pakaian massal. Desain-desain ini sering kali mencerminkan ciri khas yang identik dengan brand distro tersebut. Distro juga sering berkolaborasi bersama desainer independen atau seniman untuk memperlihatkan kreativitas mereka dan menawarkan produk yang unik kepada konsumen sehingga produknya memiliki nilai lebih...</p>
+                  <button class="btn btnSelengkapnya px-3" type="button">Selengkapnya...</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card cardArtikel mb-3">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="images/artikel2.png" class="gmbrArtikel" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body teksCard">
+                  <h5 class="card-title headArtikel">Produk Fashion yang Banyak Dicari Online</h5>
+                  <p class="card-text ringkasArtikel lh-1">Setiap orang, baik pria ataupun wanita, tentu ingin tampil dengan versi terbaik dari dirinya, melalui berbagai produk fashion. Mulai dari yang melekat di tubuh, seperti kaos, blouse, celana, rok, sampai berbagai aksesories, dari anting-anting sampai jam tangan. Ada yang lebih suka gaya simple, ada juga yang lebih suka gaya yang lebih berani. Kalau Anda, lebih suka yang mana?</p>
+                  <button class="btn btnSelengkapnya px-3" type="button">Selengkapnya...</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card cardArtikel mb-3">
+            <div class="row g-0">
+              <div class="col-4">
+                <img src="images/artikel3.png" class="gmbrArtikel" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body teksCard">
+                  <h5 class="card-title headArtikel">10 Rekomendasi Baju Kaos Pria Distro untuk Penampilan Lebih Optimal! (2023)</h5>
+                  <p class="card-text ringkasArtikel lh-1">Setiap kaos umumnya terdapat label yang memberikan petunjuk pemakaian. Bagian ini merupakan hal penting yang perlu Anda perhatikan. Ini merupakan cara yang diberikan oleh pabrik mengenai cara perawatan kaos tersebut.</p>
+                  <button class="btn btnSelengkapnya px-3" type="button">Selengkapnya...</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="card-footer" style="background-color: #FFE3E3;">
+        <hr style="border-width: 5px;" class="tebal-hr">
+        <div class="container-fluid px-5">
+        <div class="d-flex justify-content-between gap-2" style="color: #141e46; margin-top: 45px;">
+
+            <div class="col-3">
+            <p>
+                <img src="images/logo_lokatrendy.png" alt="" width="265px">
+            </p>
+            <p style="font-size: 15px; ">
+                Lokatrendy adalah merek milik PT Melek Teknologi Indonesia.
+                Terdaftar pada Direktorat Komando Kekayaan Intelektual Republik Indonesia.
+            </p>
+            </div>
+            <div class="d-flex flex-column gap-2">
+            <p style="font-weight: bold; font-size: 20px;">Company</p>
+            <a href="#">Home</a>
+            <a href="#">Product & Service</a>
+            <a href="#">Help</a>
+            <a href="#">Career</a>
+            <a href="#">Location</a>
+            </div>
+            <div class="d-flex flex-column gap-2">
+            <p style="font-weight: bold; font-size: 20px;">Help</p>
+            <a href="#">Tutorial</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            </div>
+            <div>
+            <p style="font-weight: bold; font-size: 20px;">Pembayaran</p>
+            <p>
+            <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="images/cod 1.png" alt="" style="width: 90x; height: 35px; padding: 6px 23px;">
+                <img src="images/bca-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/akulaku-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 0px 10px;">
+            </div>
+            <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="images/bri 1.png" alt="" style="width: 93px; height: 35px; padding: 9px 10px;">
+                <img src="images/mandiri 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/bni 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+            <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="images/permata-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="images/alfamart 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/ovo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 15px;">
+            </div>
+            <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="images/dana-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="images/linkaja-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 33px;">
+                <img src="images/qris-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+            <div class="d-flex gap-2 bayar-kirim">
+                <img src="images/visa 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="images/jcb 1.png" alt="" style="width: 93px; height: 35px; padding: 4px 30px;">
+                <img src="images/master 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+            </p>
+
+            <p style="font-weight: bold; font-size: 20px;">Pengiriman</p>
+            <div class="d-flex gap-2 bayar-kirim">
+                <img src="images/jne_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/jnt_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="images/sicepat_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+            </div>
+            <div class="col-lg-2 ms-4">
+            <p align="right" style="font-weight: bold; font-size: 20px;">Connect With Us</p>
+            <div class="icon d-flex flex-column align-items-end gap-2">
+                <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-tiktok"></i> TikTok </a>
+                <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-twitter"></i> Twitter </a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <br><br>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./assets/js/script.js"></script> -->
+</body>
+</html>
