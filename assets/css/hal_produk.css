@@ -81,14 +81,14 @@
 .cardku {
   border-radius: 0px;
   border: none;
-}
-.bayang {
   box-shadow: 5px 5px 10px -5px rgba(126, 126, 126, 0.345);
 }
 
-.teksDesain {
+.teksDesain a{
   font-size: 18px;
   font-weight: 500;
+  color: black;
+  text-decoration: none;
 }
 .teksPenjual {
   font-size: 12px;
