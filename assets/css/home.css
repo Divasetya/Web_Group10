@@ -172,6 +172,12 @@ body {
   padding-right: 10px;
   
 }
+
+.btnUpProduk a{
+  text-decoration: none;
+  color: white;
+}
+
 /* branding bawah carousel */
 .fontBranding1 {
   font-weight: bold;
