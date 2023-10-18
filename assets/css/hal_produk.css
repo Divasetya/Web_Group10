@@ -106,6 +106,31 @@
   background-color: #141e46;
 }
 
+.badgeModal {
+  background-color: #141e46;
+  font-weight: 500;
+}
+.btnModal {
+  background-color: #141e46;
+  color: white;
+}
+.btnModal a{
+  background-color: #141e46;
+  color: white;
+  text-decoration: none;
+}
+.btnJumlah {
+  border-color: #141e46;
+  border-width: 2px;
+  height: 5vh;
+}
+.cardQuantity {
+  border-color: #141e46;
+  border-width: 2px;
+  color: #141e46;
+  font-weight: bold;
+}
+
 /* produk pilihan terbaru */
 .headProduk {
   color: #141e46;
