@@ -120,6 +120,7 @@
 .gmbrArtikel {
   width: 53vh;
   height: 52vh;
+  box-shadow: 2px 2px 5px 1px rgba(158, 158, 158, 0.678);
 }
 .teksCard {
   margin: 2%;
