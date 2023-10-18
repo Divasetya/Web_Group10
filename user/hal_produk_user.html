@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk Pilihan Terbaru</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/hal_produk.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+       <nav class="navbar">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between w-100 gap-5 align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/lokatrendy-white.png" alt="" width="136" height="32"
+                        class="d-inline-block align-text-top">
+                </a>
+                <form class="d-flex w-100 align-items-center">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn" type="button" style="background-color: #DADADA;">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #666;"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="d-flex gap-2 h-50">
+                    <a href="" class="btn-icone "><i class="fa fa-shopping-cart"></i>  </a>
+                    <a href="hal-profile.html"><img class="profile-img" src="../images/pp1.png" alt=""></a>
+                    <p class="name-profile">marsha</p>
+                    <!-- <a href="" class="btn btn-secondary-black px-4">Daftar</a> -->
+                </div>
+            </div>
+            <div class="mt-3 mb-1 d-flex justify-content-between w-100">
+                <div class="d-flex gap-4 nav-link">
+                   <a href="home.html">Beranda</a>
+                    <a href="hal_brand_user.html">Brand</a>
+                    <a href="home.html#weeklyBest">Weekly Bestseller</a>
+                    <a href="#">Produk</a>
+                    <a href="../hal_artikel.html">Artikel</a>
+                </div>
+                <div>
+                    <a href="../hal-unggah-produk.html" class="btn btn-secondary-black rounded-5 px-4">Buat Sekarang <i
+                            class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+  <div style="height: 23vh;"></div>
+
+    <!-- PRODUK PILIHAN TERBARU -->
+    <section class="container-fluid px-5 pt-4 pb-1">
+      <div class="d-flex justify-content-between align-items-center headProduk">
+        <p style="color: #0D3D64;">Produk Pilihan Terbaru</p>
+      </div>
+      <div class="row px-1">
+        <div class="col-4" style="padding-right: 9%;">
+            <span style="color: #141e46; font-size: 12px; font-weight: 600;">Tema</span>
+            <span>
+                <div class="dropdown">
+                    <button class="btn d-flex align-items-center justify-content-between btnDropku" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span style="font-size: 12px; color: black;">Semua Tema</span>
+                      <span><img src="../images/arrow.png" alt="" style="width: 19px;"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">tema 1</a></li>
+                      <li><a class="dropdown-item" href="#">tema 2</a></li>
+                      <li><a class="dropdown-item" href="#">tema 3</a></li>
+                    </ul>
+                </div>
+            </span>
+        </div>
+        <div class="col-4"  style="padding-left: 4%; padding-right: 5%;">
+            <span style="color: #141e46; font-size: 12px; font-weight: 600;">Penjualan</span>
+            <span>
+                <div class="dropdown">
+                    <button class="btn d-flex align-items-center justify-content-between btnDropku" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span style="font-size: 12px; color: black;">Paling Banyak Terjual</span>
+                      <span><img src="../images/arrow.png" alt="" style="width: 19px;"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">produk 1</a></li>
+                        <li><a class="dropdown-item" href="#">produk 2</a></li>
+                        <li><a class="dropdown-item" href="#">produk 3</a></li>
+                    </ul>
+                </div>
+            </span>
+        </div>
+        <div class="col-4" style="padding-left: 10%;">
+            <span style="color: #141e46; font-size: 12px; font-weight: 600;">Harga</span>
+            <span>
+                <div class="dropdown">
+                    <button class="btn d-flex align-items-center justify-content-between btnDropku" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span style="font-size: 12px; color: black;">Dari Paling Murah</span>
+                      <span><img src="../images/arrow.png" alt="" style="width: 19px;"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">harga 1</a></li>
+                        <li><a class="dropdown-item" href="#">harga 2</a></li>
+                        <li><a class="dropdown-item" href="#">harga 3</a></li>
+                    </ul>
+                </div>
+            </span>
+        </div>
+      </div>
+    </section>
+    <!-- produk2nya -->
+    <section class="container-fluid px-5 pt-0 pb-5">
+      <div class="row d-flex justify-content-between py-5">
+        <div class="card cardku" style="width: 18rem;">
+          <img src="../images/tshirt1.png" class="pt-3" alt="">
+          <div class="card-body px-1 d-flex flex-column">
+            <span>
+              <span class="badge rounded-pill text-secondary border border-secondary">UMKM</span>
+              <span class="badge rounded-pill text-secondary border border-secondary">Anime</span>
+              <span class="badge rounded-pill text-secondary border border-secondary">Game</span>
+            </span>
+            <span class="teksDesain"><a href="hal_detailProduk.html" class="stretched-link">Astronaut</a></span>
+            <span class="teksPenjual">TROBY.CLOTH</span>
+            <span class="d-flex justify-content-between">
+              <span class="teksHarga">Rp. 105.000,00</span>
+              <span class="teksTerjual">5 Terjual</span>
+            </span>
+            <!-- <button class="visually-hidden stretched-link">link ke halaman produk</button> -->
+          </div>
+        </div>
+
+        <div class="card cardku" style="width: 18rem;">
+          <img src="../images/newest_product/umkm.png" class="pt-3" alt="">
+          <div class="card-body px-1 d-flex flex-column">
+            <span>
+              <span class="badge rounded-pill text-secondary border border-secondary">UMKM</span>
+            </span>
+            <span class="teksDesain"><a href="hal_detailProduk.html" class="stretched-link">Lunar Samurai Warrior</a></span>
+            <span class="teksPenjual">GAMU.Co</span>
+            <span class="d-flex justify-content-between">
+              <span class="teksHarga">Rp. 95.000,00</span>
+              <span class="teksTerjual">5 Terjual</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="card cardku" style="width: 18rem;">
+          <img src="../images/newest_product/umkm2.png" class="pt-3" alt="">
+          <div class="card-body px-1 d-flex flex-column">
+            <span>
+              <span class="badge rounded-pill text-secondary border border-secondary">UMKM</span>
+            </span>
+            <span class="teksDesain"><a href="hal_detailProduk.html" class="stretched-link">Spartan 480 BC</a></span>
+            <span class="teksPenjual">GenxToon</span>
+            <span class="d-flex justify-content-between">
+              <span class="teksHarga">Rp. 94.000,00</span>
+              <span class="teksTerjual">5 Terjual</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="card cardku" style="width: 18rem;">
+          <img src="../images/newest_product/umkm3.png" class="pt-3" alt="">
+          <div class="card-body px-1 d-flex flex-column">
+            <span>
+              <span class="badge rounded-pill text-secondary border border-secondary">UMKM</span>
+            </span>
+            <span class="teksDesain"><a href="hal_detailProduk.html" class="stretched-link">MY VIBES</a></span>
+            <span class="teksPenjual">Tiga Zaman Cloth</span>
+            <span class="d-flex justify-content-between">
+              <span class="teksHarga">Rp. 131.000,00</span>
+              <span class="teksTerjual">5 Terjual</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-between pt-0 pb-5">
+        <div class="card cardku" style="width: 18rem;">
+          <img src="../images/newest_product/anime.png" class="pt-3" alt="">
+          <div class="card-body px-1 d-flex flex-column">
+            <span>
+              <span class="badge rounded-pill text-secondary border border-secondary">Anime</span>
+            </span>
+            <span class="teksDesain"><a href="hal_detailProduk.html" class="stretched-link">Jujutsu Kaisen-Satoru...</a></span>
+            <span class="teksPenjual">SKYZOO</span>
+            <span class="d-flex justify-content-between">
+              <span class="teksHarga">Rp. 105.000,00</span>
+              <span class="teksTerjual">5 Terjual</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="card cardku" style="width: 18rem;">
+          <img src="../images/tshirt2.png" class="pt-3" alt="">
+          <div class="card-body px-1 d-flex flex-column">
+            <span>
+              <span class="badge rounded-pill text-secondary border border-secondary">Game</span>
+            </span>
+            <span class="teksDesain"><a href="hal_detailProduk.html" class="stretched-link">Dino Musik</a></span>
+            <span class="teksPenjual">Ziiuzz</span>
+            <span class="d-flex justify-content-between">
+              <span class="teksHarga">Rp. 88.000,00</span>
+              <span class="teksTerjual">5 Terjual</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="card cardku" style="width: 18rem;">
+          <img src="../images/newest_product/meme.png" class="pt-3" alt="">
+          <div class="card-body px-1 d-flex flex-column">
+            <span>
+              <span class="badge rounded-pill text-secondary border border-secondary">Meme</span>
+            </span>
+            <span class="teksDesain"><a href="hal_detailProduk.html" class="stretched-link">Kaos Meme</a></span>
+            <span class="teksPenjual">Pemula_Id</span>
+            <span class="d-flex justify-content-between">
+              <span class="teksHarga">Rp. 103.000,00</span>
+              <span class="teksTerjual">5 Terjual</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="card cardku" style="width: 18rem;">
+          <img src="../images/newest_product/marvel.png" class="pt-3" alt="">
+          <div class="card-body px-1 d-flex flex-column">
+            <span>
+              <span class="badge rounded-pill text-secondary border border-secondary">Marvel</span>
+            </span>
+            <span class="teksDesain"><a href="hal_detailProduk.html" class="stretched-link">DECEPTION</a></span>
+            <span class="teksPenjual">NDA.id</span>
+            <span class="d-flex justify-content-between">
+              <span class="teksHarga">Rp. 122.000,00</span>
+              <span class="teksTerjual">5 Terjual</span>
+            </span>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="card-footer" style="background-color: #FFE3E3;">
+
+        <hr style="border-width: 5px;" class="tebal-hr">
+        <div class="container-fluid px-5">
+        <div class="d-flex justify-content-between gap-2" style="color: #141e46; margin-top: 45px;">
+
+            <div class="col-3">
+            <p>
+                <img src="../images/logo_lokatrendy.png" alt="" width="265px">
+            </p>
+            <p style="font-size: 15px; ">
+                Lokatrendy adalah merek milik PT Melek Teknologi Indonesia.
+                Terdaftar pada Direktorat Komando Kekayaan Intelektual Republik Indonesia.
+            </p>
+            </div>
+            <div class="d-flex flex-column gap-2">
+            <p style="font-weight: bold; font-size: 20px;">Company</p>
+            <a href="#">Home</a>
+            <a href="#">Product & Service</a>
+            <a href="#">Help</a>
+            <a href="#">Career</a>
+            <a href="#">Location</a>
+            </div>
+            <div class="d-flex flex-column gap-2">
+            <p style="font-weight: bold; font-size: 20px;">Help</p>
+            <a href="#">Tutorial</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            </div>
+            <div>
+            <p style="font-weight: bold; font-size: 20px;">Pembayaran</p>
+            <p>
+            <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="../images/cod 1.png" alt="" style="width: 90x; height: 35px; padding: 6px 23px;">
+                <img src="../images/bca-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="../images/akulaku-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 0px 10px;">
+            </div>
+            <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="../images/bri 1.png" alt="" style="width: 93px; height: 35px; padding: 9px 10px;">
+                <img src="../images/mandiri 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="../images/bni 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+            <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="../images/permata-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="../images/alfamart 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="../images/ovo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 15px;">
+            </div>
+            <div class="d-flex gap-2 mb-2 bayar-kirim">
+                <img src="../images/dana-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="../images/linkaja-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 33px;">
+                <img src="../images/qris-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+            <div class="d-flex gap-2 bayar-kirim">
+                <img src="../images/visa 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                <img src="../images/jcb 1.png" alt="" style="width: 93px; height: 35px; padding: 4px 30px;">
+                <img src="../images/master 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+            </p>
+
+            <p style="font-weight: bold; font-size: 20px;">Pengiriman</p>
+            <div class="d-flex gap-2 bayar-kirim">
+                <img src="../images/jne_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="../images/jnt_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                <img src="../images/sicepat_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            </div>
+            </div>
+            <div class="col-lg-2 ms-4">
+            <p align="right" style="font-weight: bold; font-size: 20px;">Connect With Us</p>
+            <div class="icon d-flex flex-column align-items-end gap-2">
+                <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-tiktok"></i> TikTok </a>
+                <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-twitter"></i> Twitter </a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <br><br>
+    </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

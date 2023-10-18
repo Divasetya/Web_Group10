@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halaman</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap"
+    rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="../assets/css/home.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between w-100 gap-5 align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/lokatrendy-white.png" alt="" width="136" height="32"
+                        class="d-inline-block align-text-top">
+                </a>
+                <form class="d-flex w-100 align-items-center">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn" type="button" style="background-color: #DADADA;">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #666;"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <div class="d-flex gap-2 h-50">
+                    <a href="" class="btn-icone "><i class="fa fa-shopping-cart"></i>  </a>
+                    <a href="../user/hal-profile.html"><img class="profile-img" src="../images/pp1.png" alt=""></a>
+                    <p class="name-profile">marsha</p>
+                 
+                </div>
+            </div>
+            <div class="mt-3 mb-1 d-flex justify-content-between w-100">
+                <div class="d-flex gap-4 nav-link">
+                    <a href="#">Beranda</a>
+                    <a href="hal_brand_user.html">Brand</a>
+                    <a href="#weeklyBest">Weekly Bestseller</a>
+                    <a href="hal_produk_user.html">Produk</a>
+                    <a href="../hal_artikel.html">Artikel</a>
+                </div>
+                <div>
+                    <a href="../hal-unggah-produk.html" class="btn btn-secondary-black rounded-5 px-4">Buat Sekarang <i
+                            class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<div style="height: 27vh;"></div>
+
+  <!-- CAROUSEL -->
+  <div class="container-fluid px-5 py-2">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner" style="border-radius: 25px; overflow: hidden;">
+        <div class="carousel-item active" style="background-color: #FFE3E3;">
+          <div class="row padCar">
+            <div class="col my-4">
+              <p class="pt-4 pb-0 lh-1 headCarS1">
+                Unggah Desain
+                <br>
+                Kreatifmu!
+              </p>
+              <p style="font-weight: 600; font-size: 12px;">Unggah desain kreatifmu dengan mudah dan dapatkan keuntungan
+                dari hasil karyamu.</p>
+              <p><a href="../hal-unggah-produk.html" type="button" class="btn btnUnggah">Unggah Sekarang</a></p>
+            </div>
+            <div class="col d-flex justify-content-end">
+              <img class="pt-3" src="../images/carousel 1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-color: #C70039;">
+          <div class="row">
+            <div class="col-1 mt-2 mb-0">
+              <img src="../images/logo_lokatrendy.png" class="rounded-end-pill bg-white px-2 py-2" alt=""
+                style="width: 130px;">
+              <br><br><br><br><br><br><br><br>
+              <p class="badge border-top border-2 border-black rounded-0 mb-1 px-5 py-2 skBerlaku">s&k berlaku</p>
+            </div>
+            <div class="col-4 mt-5 mb-4 ps-5 pe-0">
+              <p class="lh-1 headCarS2_1 mb-2">
+                Valentine's
+                <br>
+                Sale
+              </p>
+              <button class="badge rounded-pill btnShopNow pb-1 px-3">
+                SHOP NOW
+                <img class="rounded-circle px-2 py-1 btnShopNow" src="../images/Vector.png" alt="">
+              </button>
+            </div>
+            <div class="col-7 carS2">
+              <p class="ms-5" style="font-weight: bold; font-size: 169px; color: white;">20</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="btnCar" aria-hidden="true"><img src="../images/Vector_biru2.png" alt=""></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="btnCar" aria-hidden="true"><img src="../images/Vector_biru.png" alt=""></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- BRANDING BAWAH CAROUSEL -->
+  <div class="container-fluid px-5 pt-5 pb-0" id="hanging-icons">
+    <div class="row mx-1 g-4 py-0 row-cols-1 row-cols-lg-3 rounded-4"
+      style="box-shadow: 0px 0px 3px rgb(196, 195, 195);">
+      <div class="col d-flex align-items-start justify-content-center">
+        <div
+          class="icon-square text-body-emphasi d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-0">
+          <img src="../images/DTF Printing.png" alt="">
+        </div>
+        <div class="pt-1">
+          <h3 class="fs-6 mb-0 fontBranding1">DTF Printing</h3>
+          <p class="fontBranding2">menggunakan sablon DTF</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start justify-content-center">
+        <div
+          class="icon-square text-body-emphasi d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-0">
+          <img src="../images/Clothes.png" alt="">
+        </div>
+        <div class="pt-1">
+          <h3 class="fs-6 mb-0 fontBranding1">Premium T-Shirt</h3>
+          <p class="fontBranding2">kaos menggunakan bahan premium</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start justify-content-center">
+        <div
+          class="icon-square text-body-emphasi d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1">
+          <img src="../images/secure payment.png" alt="">
+        </div>
+        <div class="pt-1"> 
+          <h3 class="fs-6 mb-0 fontBranding1">100% Secure Payment</h3>
+          <p class="fontBranding2">menjamin pembayaran yang aman</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BRAND BARU -->
+  <div class="container-fluid px-5 py-5">
+    <div class="d-flex justify-content-between align-items-center my-3">
+      <h3 style="color: var(--secondary);" class="fw-semibold">Brand Terbaru</h3>
+      <a href="hal_Brand.html" class="btn btn-sm btn-secondary-black d-inline-block px-4 rounded-pill">Lihat Semua</a>
+    </div>
+
+    <div class="carousel"
+      data-flickity='{ "groupCells": true, "cellAlign": "left", "autoPlay": true, "pauseAutoPlayOnHover": true }'>
+      <div class="carousel-cell d-flex gap-2">
+        <img src="../assets/images/logo-skyzoo.png" alt="">
+        <div class="d-flex align-items-end justify-content-center gap-2 flex-column w-100">
+          <span class="fs-5 text-white fw-bolder">SKYZOO</span>
+          <span class="text-white fs-7">3 Produk</span>
+          <span>
+            <a href="hal-brand.html" class="btn btn-secondary-black px-4">More</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="carousel-cell d-flex gap-2">
+        <img src="../assets/images/logo-skyzoo.png" alt="">
+        <div class="d-flex align-items-end justify-content-center gap-2 flex-column w-100">
+          <span class="fs-5 text-white fw-bolder">SKYZOO</span>
+          <span class="text-white fs-7">3 Produk</span>
+          <span>
+            <a href="hal-brand.html" class="btn btn-secondary-black px-4">More</a>
+          </span>
+        </div>
+      </div>
+
+
+      <div class="carousel-cell d-flex gap-2">
+        <img src="../assets/images/slider_home/brand_slider1.png" alt="">
+        <div class="d-flex align-items-end justify-content-center gap-2 flex-column w-100">
+          <span class="fs-5 text-white fw-bolder">Alx Studio</span>
+          <span class="text-white fs-7">3 Produk</span>
+          <span>
+            <a href="#" class="btn btn-secondary-black px-4">More</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="carousel-cell d-flex gap-2">
+        <img src="../assets/images/slider_home/brand_slider1.png" alt="">
+        <div class="d-flex align-items-end justify-content-center gap-2 flex-column w-100">
+          <span class="fs-5 text-white fw-bolder">Alx Studio</span>
+          <span class="text-white fs-7">3 Produk</span>
+          <span>
+            <a href="#" class="btn btn-secondary-black px-4">More</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="carousel-cell d-flex gap-2">
+        <img src="../assets/images/slider_home/brand_slider1.png" alt="">
+        <div class="d-flex align-items-end justify-content-center gap-2 flex-column w-100">
+          <span class="fs-5 text-white fw-bolder">Alx Studio</span>
+          <span class="text-white fs-7">3 Produk</span>
+          <span>
+            <a href="#" class="btn btn-secondary-black px-4">More</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="carousel-cell d-flex gap-2">
+        <img src="../assets/images/slider_home/brand_slider1.png" alt="">
+        <div class="d-flex align-items-end justify-content-center gap-2 flex-column w-100">
+          <span class="fs-5 text-white fw-bolder">Alx Studio</span>
+          <span class="text-white fs-7">3 Produk</span>
+          <span>
+            <a href="#" class="btn btn-secondary-black px-4">More</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="carousel-cell d-flex gap-2">
+        <img src="../assets/images/slider_home/brand_slider1.png" alt="">
+        <div class="d-flex align-items-end justify-content-center gap-2 flex-column w-100">
+          <span class="fs-5 text-white fw-bolder">Alx Studio</span>
+          <span class="text-white fs-7">3 Produk</span>
+          <span>
+            <a href="#" class="btn btn-secondary-black px-4">More</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="carousel-cell d-flex gap-2">
+        <img src="../assets/images/slider_home/brand_slider1.png" alt="">
+        <div class="d-flex align-items-end justify-content-center gap-2 flex-column w-100">
+          <span class="fs-5 text-white fw-bolder">Alx Studio</span>
+          <span class="text-white fs-7">3 Produk</span>
+          <span>
+            <a href="#" class="btn btn-secondary-black px-4">More</a>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="weeklyBest" class="container-fluid px-5 py-5 my-5" style="background-color: var(--pink);" id="best-seller">
+    <div class="d-flex gap-3">
+      <div class="d-flex flex-column">
+        <h4 class="fs-1 fw-bolder">Weekly Best <br> Selling Products</h4>
+        <p class="fs-5">Lihat koleksi desain kaos yang paling hits minggu ini. Dapatkan juga diskon dengan klaim voucher
+          di bawah ini</p>
+        <div class="d-flex flex-column">
+          <div class="fw-bolder">Kode voucher :</div>
+          <div class="d-flex gap-2 align-items-center">
+            <span style="background-color: var(--secondary); color: var(--white);"
+              class="px-3 py-2 rounded fw-bolder">BESTSELLINGWEEK35</span>
+            <span style="background-color: var(--secondary); color: var(--white);" class="px-3 py-2 rounded"><i
+                class="fa-regular fa-copy fa-flip-horizontal fs-5"></i> </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex flex-column shadow-lg p-3 rounded">
+        <img src="../images/tshirt1.png" alt="">
+        <div>
+          <span class="badge rounded-pill text-secondary border border-secondary">Game</span>
+          <span class="badge rounded-pill text-secondary border border-secondary">Meme</span>
+          <span class="badge rounded-pill text-secondary border border-secondary">Marvel</span>
+        </div>
+        <div class="d-flex flex-column gap-2 justify-content-between">
+          <div class="fs-4">Astronaut</div>
+          <div>TROBBY.CLOTH</div>
+          <div class="d-flex justify-content-between">
+            <b>Rp. 105.000,00</b>
+            <p>5 Terjual</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex flex-column shadow-lg p-3 rounded">
+        <img src="../images/tshirt1.png" alt="">
+        <div>
+          <span class="badge rounded-pill text-secondary border border-secondary">Game</span>
+          <span class="badge rounded-pill text-secondary border border-secondary">Meme</span>
+          <span class="badge rounded-pill text-secondary border border-secondary">Marvel</span>
+        </div>
+        <div class="d-flex flex-column gap-2 justify-content-between">
+          <div class="fs-4">Astronaut</div>
+          <div>TROBBY.CLOTH</div>
+          <div class="d-flex justify-content-between">
+            <b>Rp. 105.000,00</b>
+            <p>5 Terjual</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-flex flex-column shadow-lg p-3 rounded">
+        <img src="../images/tshirt1.png" alt="">
+        <div>
+          <span class="badge rounded-pill text-secondary border border-secondary">Game</span>
+          <span class="badge rounded-pill text-secondary border border-secondary">Meme</span>
+          <span class="badge rounded-pill text-secondary border border-secondary">Marvel</span>
+        </div>
+        <div class="d-flex flex-column gap-2 justify-content-between">
+          <div class="fs-4">Astronaut</div>
+          <div>TROBBY.CLOTH</div>
+          <div class="d-flex justify-content-between">
+            <b>Rp. 105.000,00</b>
+            <p>5 Terjual</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <div class=" container-fluid px-5">
+    <div class="d-flex flex-column gap-3">
+      <div class="d-flex justify-content-between align-items-center">
+        <h3 class="fw-bolder" style="color: var(--secondary);">Produk Pilihan Terbaru</h3>
+        <div>
+          <a href="hal_produk.html" class="btn btn-sm btn-secondary-black d-inline-block px-4 rounded-pill">Lihat Semua</a>
+        </div>
+      </div>
+      <div class="d-flex gap-2 category-product" id="filters">
+        <button class="badge rounded-pill rounded-pill-secondary" data-filter="*">All</button>
+        <button class="badge rounded-pill rounded-pill-outline-secondary" data-filter=".anime">Anime</button>
+        <button class="badge rounded-pill rounded-pill-outline-secondary" data-filter=".game">Game</button>
+        <button class="badge rounded-pill rounded-pill-outline-secondary" data-filter=".meme">Meme</button>
+        <button class="badge rounded-pill rounded-pill-outline-secondary" data-filter=".marvel">Marvel</button>
+        <button class="badge rounded-pill rounded-pill-outline-secondary" data-filter=".kemerdekaan">Kemerdekaan</button>
+        <button class="badge rounded-pill rounded-pill-outline-secondary" data-filter=".umkm">UMKM</button>
+      </div>
+      <div class="row gap-2" id="product-list">
+
+        <div class="shadow-lg p-3 mb-5 rounded element-item anime">
+          <div class="product-item d-flex flex-column">
+            <img src="../assets/images/newest_product/anime.png" alt="">
+            <div>
+              <span class="badge rounded-pill text-secondary border border-secondary">Anime</span>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-between ">
+              <div class="fs-4 text-truncate">Jujutsu Kaisen-Satoru</div>
+              <div>SKYZOO</div>
+              <div class="d-flex justify-content-between">
+                <b>Rp. 105.000,00</b>
+                <p>5 Terjual</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shadow-lg p-3 mb-5 rounded element-item umkm">
+          <div class="product-item d-flex flex-column">
+            <img src="../assets/images/newest_product/umkm.png" alt="">
+            <div>
+              <span class="badge rounded-pill text-secondary border border-secondary">UMKM</span>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-between ">
+              <div class="fs-4 text-truncate">Lunar Samurai Warrior</div>
+              <div>GAMU.Co</div>
+              <div class="d-flex justify-content-between">
+                <b>Rp. 95.000,00</b>
+                <p>5 Terjual</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="shadow-lg p-3 mb-5 rounded element-item umkm">
+          <div class="product-item d-flex flex-column">
+            <img src="../assets/images/newest_product/umkm2.png" alt="">
+            <div>
+              <span class="badge rounded-pill text-secondary border border-secondary">UMKM</span>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-between ">
+              <div class="fs-4 text-truncate">Spartan 480 BC</div>
+              <div>GenxToon</div>
+              <div class="d-flex justify-content-between">
+                <b>Rp. 94.000,00</b>
+                <p>5 Terjual</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shadow-lg p-3 mb-5 rounded element-item umkm">
+          <div class="product-item d-flex flex-column">
+            <img src="../assets/images/newest_product/umkm3.png" alt="">
+            <div>
+              <span class="badge rounded-pill text-secondary border border-secondary">UMKM</span>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-between ">
+              <div class="fs-4 text-truncate">MY VIBES</div>
+              <div>Tiga Zaman Cloth</div>
+              <div class="d-flex justify-content-between">
+                <b>Rp. 131.000,00</b>
+                <p>5 Terjual</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shadow-lg p-3 mb-5 rounded element-item marvel">
+          <div class="product-item d-flex flex-column">
+            <img src="../assets/images/newest_product/marvel.png" alt="">
+            <div>
+              <span class="badge rounded-pill text-secondary border border-secondary">Marvel</span>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-between ">
+              <div class="fs-4 text-truncate">DECEPTICON</div>
+              <div>NDA.id</div>
+              <div class="d-flex justify-content-between">
+                <b>Rp. 122.000,00</b>
+                <p>5 Terjual</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shadow-lg p-3 mb-5 rounded element-item meme">
+          <div class="product-item d-flex flex-column">
+            <img src="../assets/images/newest_product/meme.png" alt="">
+            <div>
+              <span class="badge rounded-pill text-secondary border border-secondary">Meme</span>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-between ">
+              <div class="fs-4 text-truncate">Kaos Meme</div>
+              <div>Pemula_Id</div>
+              <div class="d-flex justify-content-between">
+                <b>Rp. 103.000,00</b>
+                <p>5 Terjual</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="shadow-lg p-3 mb-5 rounded element-item game umkm anime">
+          <div class="product-item d-flex flex-column">
+            <img src="../images/tshirt1.png" alt="">
+            <div>
+              <span class="badge rounded-pill text-secondary border border-secondary">UMKM</span>
+              <span class="badge rounded-pill text-secondary border border-secondary">Anime</span>
+              <span class="badge rounded-pill text-secondary border border-secondary">Game</span>
+            </div>
+            <div class="d-flex flex-column gap-2 justify-content-between">
+              <div class="fs-4 text-truncate">Astronaut</div>
+              <div>TROBBY.CLOTH</div>
+              <div class="d-flex justify-content-between">
+                <b>Rp. 105.000,00</b>
+                <p>5 Terjual</p>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+
+    </div>
+    <div class="d-flex">
+      <div class="d-flex flex-column">
+        <h4 class="fs-1 fw-bold" style="color: var(--primary);">Atur desain? <br> Simpel banget!</h4>
+        <p class="fw-semibold fs-6">Dengan langkah-langkah yang sederhana, kamu dapat mulai unggah desainmu ke website
+          kami.</p>
+        <ul>
+          <li>Siapkan desain kaosmu</li>
+          <li>Unggah desain</li>
+          <li>Sesuaikan</li>
+          <li>Beri nama desain kaosmu</li>
+        </ul>
+        <button style="width: 40%;" class="btn btn-md btn-secondary-black rounded-3">Buat Sekarang</button>
+      </div>
+      <img src="../images/editor.png" alt="">
+    </div>
+  </div>
+
+  <!-- KERJA SAMA -->
+  <section id="kerja-sama">
+    <div class="container">
+      <div class="row">
+        <p style="font-family: 'Montserrat', sans-serif; font-weight: bold; color: #141e46; font-size: 35px;"
+          align="center">
+          Bekerja Sama dengan
+        </p>
+      </div>
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class=" d-flex gap-4 row justify-content-center">
+            <div class="card kartu">
+              <div class="card-body d-flex justify-content-center">
+                <img src="../images/kerjaSama1.png" alt="" width="170px" />
+              </div>
+            </div>
+            <div class="card kartu">
+              <div class="card-body d-flex justify-content-center">
+                <img src="../images/kerjaSama2.png" alt="" width="170px" />
+              </div>
+            </div>
+            <div class="card kartu">
+              <div class="card-body d-flex justify-content-center">
+                <img src="../images/kerjaSama3.png" alt="" width="170px" />
+              </div>
+            </div>
+            <div class="card kartu">
+              <div class="card-body d-flex justify-content-center">
+                <img src="../images/kerjaSama4.png" alt="" width="170px" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- DTF -->
+  <section style="background-color: #C70039">
+    <div class="jumbotron jumbotron-fluid jumbotronDTF">
+      <div class="row d-flex justify-content-end">
+        <div class="col-lg-6 p-4 fontDTF">
+          <p style="font-size: 35px; font-weight: bold;">
+            Kenapa Kami Menggunakan DTF?
+          </p>
+          <p style="font-size: 22px; text-align: justify; padding-right: 40px;">
+            Direct Transfer Film (DTF) merupakan teknik sablon mencetak gambar ke kertas film dengan
+            tinta khusus, dan menransfer gambar tersebut ke kaos dengan bantuan lem berbentuk bubuk
+            sebagai perekatnya. DTF memiliki kelebihan pada akurasi dan kecepatan yang lumayan tinggi
+            serta kekuatan dan keelastisitasan hasil sablonnya. Selain itu, kamu tidak perlu khawatir
+            sablon akan luntur karena DTF aman untuk dicuci dan disetrika.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+
+  <!-- FOOTER -->
+  <footer class="card-footer" style="background-color: #FFE3E3;">
+
+    <hr style="border-width: 5px;" class="tebal-hr">
+    <div class="container-fluid px-5">
+      <div class="d-flex justify-content-between gap-2" style="color: #141e46; margin-top: 45px;">
+
+        <div class="col-3">
+          <p>
+            <img src="../images/logo_lokatrendy.png" alt="" width="265px">
+          </p>
+          <p style="font-size: 15px; ">
+            Lokatrendy adalah merek milik PT Melek Teknologi Indonesia.
+            Terdaftar pada Direktorat Komando Kekayaan Intelektual Republik Indonesia.
+          </p>
+        </div>
+        <div class="d-flex flex-column gap-2">
+          <p style="font-weight: bold; font-size: 20px;">Company</p>
+          <a href="#">Home</a>
+          <a href="#">Product & Service</a>
+          <a href="#">Help</a>
+          <a href="#">Career</a>
+          <a href="#">Location</a>
+        </div>
+        <div class="d-flex flex-column gap-2">
+          <p style="font-weight: bold; font-size: 20px;">Help</p>
+          <a href="#">Tutorial</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+        <div>
+          <p style="font-weight: bold; font-size: 20px;">Pembayaran</p>
+          <p>
+          <div class="d-flex gap-2 mb-2 bayar-kirim">
+            <img src="../images/cod 1.png" alt="" style="width: 90x; height: 35px; padding: 6px 23px;">
+            <img src="../images/bca-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            <img src="../images/akulaku-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 0px 10px;">
+          </div>
+          <div class="d-flex gap-2 mb-2 bayar-kirim">
+            <img src="../images/bri 1.png" alt="" style="width: 93px; height: 35px; padding: 9px 10px;">
+            <img src="../images/mandiri 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            <img src="../images/bni 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+          </div>
+          <div class="d-flex gap-2 mb-2 bayar-kirim">
+            <img src="../images/permata-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+            <img src="../images/alfamart 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            <img src="../images/ovo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 15px;">
+          </div>
+          <div class="d-flex gap-2 mb-2 bayar-kirim">
+            <img src="../images/dana-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+            <img src="../images/linkaja-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 33px;">
+            <img src="../images/qris-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+          </div>
+          <div class="d-flex gap-2 bayar-kirim">
+            <img src="../images/visa 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+            <img src="../images/jcb 1.png" alt="" style="width: 93px; height: 35px; padding: 4px 30px;">
+            <img src="../images/master 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+          </div>
+          </p>
+
+          <p style="font-weight: bold; font-size: 20px;">Pengiriman</p>
+          <div class="d-flex gap-2 bayar-kirim">
+            <img src="../images/jne_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            <img src="../images/jnt_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+            <img src="../images/sicepat_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+          </div>
+        </div>
+        <div class="col-lg-2 ms-4">
+          <p align="right" style="font-weight: bold; font-size: 20px;">Connect With Us</p>
+          <div class="icon d-flex flex-column align-items-end gap-2">
+            <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-tiktok"></i> TikTok </a>
+            <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-twitter"></i> Twitter </a>
+          </div>
+        </div>
+      </div>
+      <br><br>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
