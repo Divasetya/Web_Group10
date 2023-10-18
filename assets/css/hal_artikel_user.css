@@ -1,0 +1,273 @@
+:root {
+  --primary: #c70039;
+  --secondary: #141e46;
+  --white: #fdfcfa;
+  --pink: #ffe3e3;
+  --bluetext: #0d3d64;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+  .navbar {
+    background-color: var(--primary);
+    padding: 1rem 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  /* .btn-primary-pink {
+    background-color: var(--primary);
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .btn-primary-pink:hover {
+    border: 1px solid white;
+    color: white;
+  } */
+  
+  .btn-secondary-black {
+    background-color: var(--secondary);
+    color: white;
+  }
+  
+  .btn-secondary-black:hover {
+    color: white;
+    background-color: var(--secondary);
+  }
+  
+  .btn-icone .fa{
+     
+     margin-top: 12px;
+  margin-left: -30px;
+  
+  }
+  
+  
+  .profile-img{
+     border-radius: 99px;
+    width: 36px;
+      height: 36px;
+   
+  }
+  
+  .name-profile{
+    color: var(--white);
+      margin-top: 5px;
+  }
+  
+.frame {
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0 0 5px 1px rgba(177, 177, 177, 0.922);
+}
+
+.headerTeks {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* navbar */
+.btnSearch {
+  font-size: 13px;
+  color: #666;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.btnMasuk {
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnMasuk:hover {
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  background-color: #c70039;
+}
+.btnDaftar {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDaftar:hover {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbarDiva {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+.navbarDiva:hover {
+  color: #141e46;
+  padding-top: 4px;
+  transition: padding 0.5s;
+  text-decoration: none;
+}
+
+.btnBuatSkrg {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+  background-color: #141e46;
+}
+
+/* fashion article of the week */
+.badgeArtikel {
+  background-color: var(--secondary);
+  font-size: 26px;
+  font-weight: 400;
+  margin-right: 3vh;
+  border-radius: 12px;
+}
+
+.marginCarousel {
+  margin-top: 8vh;
+  margin-bottom: 3vh;
+}
+.bgCarousel {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 64vh;
+}
+.newArtikel {
+  background-color: #c70039;
+  font-size: 18px;
+  font-weight: 400;
+  box-shadow: 2px 2px 8px 1px rgba(255, 255, 255, 0.733);
+  width: 7%;
+}
+.captCarArtikel {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 0px 3px 3px #c70039;
+}
+
+/* more article */
+.cardArtikel {
+  border-radius: 0px;
+  border: none;
+  box-shadow: 5px 5px 10px 1px rgba(126, 126, 126, 0.345);
+  margin-right: 5%;
+  padding: 0%;
+  max-width: 155vh;
+  height: 23vw;
+}
+.gmbrArtikel {
+  width: 53vh;
+  height: 52vh;
+  box-shadow: 2px 2px 5px 1px rgba(158, 158, 158, 0.678);
+}
+.teksCard {
+  margin: 2%;
+}
+.headArtikel a {
+  font-size: 30px;
+  font-weight: bold;
+  color: #141e46;
+  text-decoration: none;
+}
+.ringkasArtikel {
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+  margin-bottom: 1%;
+}
+.btnSelengkapnya {
+  background-color: var(--secondary);
+  color: white;
+  border-width: 1px;
+  border-radius: 12px;
+  font-size: 11px;
+}
+
+/* footer */
+.tebal-hr {
+  opacity: 1;
+  color: #c70039;
+}
+
+.CompanyHelp {
+  font-weight: 500;
+}
+.CompanyHelp p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bayar-kirim img {
+  background-color: white;
+  border: black;
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon > span > a {
+  background-color: #141e46;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  float: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.btn-primary-pink {
+  background-color: var(--primary);
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-primary-pink:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-secondary-black {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary-black:hover {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.btn-outline-secondary-black {
+  border: 1px solid var(--secondary);
+}
+
+.btn-outline-secondary-black:hover {
+  border: 1px solid var(--secondary);
+}
