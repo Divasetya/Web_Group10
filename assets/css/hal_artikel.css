@@ -124,10 +124,11 @@
 .teksCard {
   margin: 2%;
 }
-.headArtikel {
+.headArtikel a {
   font-size: 30px;
   font-weight: bold;
-  color: var(--secondary);
+  color: #141e46;
+  text-decoration: none;
 }
 .ringkasArtikel {
   font-size: 15px;
