@@ -1,0 +1,232 @@
+:root {
+  --primary: #c70039;
+  --secondary: #141e46;
+  --white: #fdfcfa;
+  --pink: #ffe3e3;
+  --bluetext: #0d3d64;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navbar */
+.btnSearch {
+  font-size: 13px;
+  color: #666;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.btnMasuk {
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnMasuk:hover {
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  background-color: #c70039;
+}
+.btnDaftar {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDaftar:hover {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbarDiva {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+.navbarDiva:hover {
+  color: #141e46;
+  padding-top: 4px;
+  transition: padding 0.5s;
+  text-decoration: none;
+}
+
+.btnBuatSkrg {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+  background-color: #141e46;
+}
+
+/* konten artikel */
+.imgArtikel {
+  height: 69vh;
+  width: 63vw;
+  object-fit: cover;
+  object-position: 100% 0;
+}
+
+.teksPenulis {
+  font-size: 19px;
+  color: #141e46;
+  margin-right: 4vh;
+}
+.btnPenulis {
+  font-size: 19px;
+  color: #141e46;
+  margin-right: 4vh;
+  background-color: white;
+  border: none;
+}
+.iconPenulis {
+  font-size: 30px;
+  color: black;
+}
+
+.subHeadArtikel {
+  font-weight: bold;
+  font-size: 21px;
+}
+.isiArtikel {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 100%;
+}
+
+.komentar {
+  font-weight: bold;
+  font-size: 16px;
+}
+.formKomen {
+  border-radius: 1px;
+  border-color: #141e46;
+  border-width: 1px;
+  height: 17vh;
+}
+.formProfilKomen {
+  border-radius: 1px;
+  border-color: #141e46;
+  border-width: 1px;
+  width: 7vw;
+  height: 7vh;
+
+  margin-right: 1vw;
+}
+.btnKirimKomen {
+  background-color: #141e46;
+  color: white;
+}
+
+/* navbar kanan */
+.btnSearchAbu {
+  background-color: #DADADA;
+  text-align: center;
+  width: 22vw;
+  border-radius: 0;
+  border: none;
+  box-shadow: 0px 1px 5px rgb(179, 179, 179);
+  color: #141e46;
+  font-weight: 500;
+}
+.pBorderMerah {
+  border-left-style: solid;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-color: #c70039;
+  border-width: 3px;
+  background-color: white;
+  color: #141e46;
+}
+.btnPlain {
+  background-color: white;
+  text-align: start;
+  border: none;
+  height: 6vh;
+  width: 22vw;
+  color: #141e46;
+  font-weight: bold;
+  font-size: 11px;
+}
+.teksLink {
+  color: #141e46;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* footer */
+.tebal-hr {
+  opacity: 1;
+  color: #c70039;
+}
+
+.CompanyHelp {
+  font-weight: 500;
+}
+.CompanyHelp p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bayar-kirim img {
+  background-color: white;
+  border: black;
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon > span > a {
+  background-color: #141e46;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  float: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.btn-primary-pink {
+  background-color: var(--primary);
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-primary-pink:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-secondary-black {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary-black:hover {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.btn-outline-secondary-black {
+  border: 1px solid var(--secondary);
+}
+
+.btn-outline-secondary-black:hover {
+  border: 1px solid var(--secondary);
+}
