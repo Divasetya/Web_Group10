@@ -1,0 +1,172 @@
+:root {
+  --primary: #c70039;
+  --secondary: #141e46;
+  --white: #fdfcfa;
+  --pink: #ffe3e3;
+  --bluetext: #0d3d64;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+.frame {
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0 0 5px 1px rgba(177, 177, 177, 0.922);
+}
+
+.headerTeks {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* navbar */
+.navbar {
+  background: #ffffff;
+  height: 105px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+}
+.navbar-brand > img {
+  width: 444px;
+  height: 100px;
+  margin-top: -10px;
+}
+
+/* konten */
+.headMerah {
+    background-color: #c70039;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bayangCard {
+    box-shadow: 0px 3px 5px rgb(189, 188, 188);
+}
+.customTabel {
+    border: white;
+    background-color: #D9D9D9;
+    color: #141e46;
+}
+.teksCardProduk {
+    font-size: 18px;
+    font-weight: 500;
+    color: #141e46;
+}
+.teksCardHarga {
+    font-size: 16px;
+    font-weight: bold;
+    color: #141e46;
+}
+.kotak {
+    background-color: white;
+    border-color: #141e46;
+    border-width: 1px;
+    height: 7vh;
+    width:17vw;
+}
+
+.btnAlamat {
+    background-color: #141e46;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btnHarga {
+    background-color: #141e46;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 27vw;
+}
+.btnKurir {
+    box-shadow: 1px 1px rgb(160, 160, 160);
+}
+
+checked {
+    border-color: #c70039;
+}
+
+/* footer */
+.tebal-hr {
+  opacity: 1;
+  color: #c70039;
+}
+
+.CompanyHelp {
+  font-weight: 500;
+}
+.CompanyHelp p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bayar-kirim img {
+  background-color: white;
+  border: black;
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon > span > a {
+  background-color: #141e46;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  float: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.btn-primary-pink {
+  background-color: var(--primary);
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-primary-pink:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-secondary-black {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary-black:hover {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.btn-outline-secondary-black {
+  border: 1px solid var(--secondary);
+}
+
+.btn-outline-secondary-black:hover {
+  border: 1px solid var(--secondary);
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/hal-checkout.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<html>
+    <body>
+        <nav class="navbar ">
+          <a class="navbar-brand" href="#">
+            <img src="../images/logo_lokatrendy.png" alt="Logo">
+          </a>
+        </nav>
+        <div style="height: 23vh;"></div>
+
+        <!-- KONTEN -->
+        <div class="container-fluid px-5">
+            <p style="font-weight: bold; font-size: 30px; text-align: center;">CHECKOUT</p>
+            <div class="row">
+                <div class="col ps-5 pe-3">
+                    <div class="card rounded-bottom-4 rounded-top-0 bayangCard">
+                        <div class="card-header rounded-top-0 headMerah">
+                          Daftar Produk
+                        </div>
+                        <div class="card-body pt-5 pb-1">
+                            <table class="table table-striped customTabel">
+                                <thead>
+                                    <tr>
+                                      <th scope="col" class="tekCardProduk">#</th>
+                                      <th scope="col" class="tekCardProduk">Produk</th>
+                                      <th scope="col" class="tekCardProduk">Varian</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td class="teksCardProduk">1</td>
+                                      <td class="teksCardProduk">Jujutsu Kaisen - Megumi Fushiguro</td>
+                                      <td class="teksCardProduk">Super Premium, Hitam, XL, Lengan Pendek</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div style="height: 2vh;"></div>
+                    <div class="card rounded-bottom-4 rounded-top-0 bayangCard">
+                        <div class="card-header rounded-top-0 headMerah">
+                          Alamat Pengiriman
+                        </div>
+                        <div class="card-body mx-3 py-2 d-flex flex-column">
+                            <p class="lh-1" style="font-size: 15px; font-weight: bold;">Marsha Lenathea</p>
+                            <p class="lh-1" style="font-size: 15px;">0896****9773</p>
+                            <p class="lh-1" style="font-size: 15px;">Perumnas Aurduri</p>
+                            <p class="d-flex justify-content-between lh-1" style="font-size: 15px;">Telanaipura, Kota Seberang, Jambi, 36123 <button class="btn btnAlamat">Ubah Alamat</button></p>
+                        </div>
+                    </div>
+                    <div style="height: 2vh;"></div>
+                    <div class="card rounded-bottom-4 rounded-top-0 bayangCard">
+                        <div class="card-header rounded-top-0 headMerah">
+                            Kurir Pengiriman & Biaya
+                        </div>
+                        <div class="card-body mx-3">
+                            <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                            <label class="btn btnKurir" for="option1">
+                                <img  src="../images/jne_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                            </label>
+                            <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                            <label class="btn btnKurir" for="option2">
+                                <img  src="../images/jnt_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                            </label>
+                            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                            <label class="btn btnKurir" for="option3">
+                                <img  src="../images/sicepat_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                            </label>  
+                            <br>
+                            <p style="font-size: 20px; margin-top: 5vh;" align="right">Rp. 90.000</p>                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col ps-3 pe-5">
+                    <div class="card rounded-bottom-4 rounded-top-0 bayangCard">
+                        <div class="card-header rounded-top-0 headMerah">
+                          Rincian Harga
+                        </div>
+                        <div class="card-body p-5" align="center">
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr >
+                                      <td class="teksCardHarga">Total Harga Produk</td>
+                                      <td class="btn kotak"></td>
+                                    </tr>
+                                    <tr >
+                                      <td class="teksCardHarga">Biaya Pengiriman</td>
+                                      <td class="btn kotak"></td>
+                                    </tr>
+                                    <tr >
+                                      <td class="teksCardHarga">Total Keseluruhan</td>
+                                      <td class="btn kotak"></td>
+                                    </tr>
+                                    <tr >
+                                      <td class="teksCardHarga">Kode Voucer</td>
+                                      <td class="btn kotak"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <button class="btn mb-2 btnHarga">Bayar Sekarang</button>
+                            <button class="btn btnHarga">Batal</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 4vh;"></div>
+        
+        <!-- FOOTER -->
+        <footer class="card-footer" style="background-color: #FFE3E3;">
+            <hr style="border-width: 5px;" class="tebal-hr">
+            <div class="container-fluid px-5">
+            <div class="d-flex justify-content-between gap-2" style="color: #141e46; margin-top: 45px;">
+
+                <div class="col-3">
+                <p>
+                    <img src="../images/logo_lokatrendy.png" alt="" width="265px">
+                </p>
+                <p style="font-size: 15px; ">
+                    Lokatrendy adalah merek milik PT Melek Teknologi Indonesia.
+                    Terdaftar pada Direktorat Komando Kekayaan Intelektual Republik Indonesia.
+                </p>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                <p style="font-weight: bold; font-size: 20px;">Company</p>
+                <a href="#">Home</a>
+                <a href="#">Product & Service</a>
+                <a href="#">Help</a>
+                <a href="#">Career</a>
+                <a href="#">Location</a>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                <p style="font-weight: bold; font-size: 20px;">Help</p>
+                <a href="#">Tutorial</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                </div>
+                <div>
+                <p style="font-weight: bold; font-size: 20px;">Pembayaran</p>
+                <p>
+                <div class="d-flex gap-2 mb-2 bayar-kirim">
+                    <img src="../images/cod 1.png" alt="" style="width: 90x; height: 35px; padding: 6px 23px;">
+                    <img src="../images/bca-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                    <img src="../images/akulaku-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 0px 10px;">
+                </div>
+                <div class="d-flex gap-2 mb-2 bayar-kirim">
+                    <img src="../images/bri 1.png" alt="" style="width: 93px; height: 35px; padding: 9px 10px;">
+                    <img src="../images/mandiri 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                    <img src="../images/bni 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                </div>
+                <div class="d-flex gap-2 mb-2 bayar-kirim">
+                    <img src="../images/permata-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                    <img src="../images/alfamart 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                    <img src="../images/ovo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 15px;">
+                </div>
+                <div class="d-flex gap-2 mb-2 bayar-kirim">
+                    <img src="../images/dana-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                    <img src="../images/linkaja-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 33px;">
+                    <img src="../images/qris-logo 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                </div>
+                <div class="d-flex gap-2 bayar-kirim">
+                    <img src="../images/visa 1.png" alt="" style="width: 93px; height: 35px; padding: 7px 10px;">
+                    <img src="../images/jcb 1.png" alt="" style="width: 93px; height: 35px; padding: 4px 30px;">
+                    <img src="../images/master 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                </div>
+                </p>
+
+                <p style="font-weight: bold; font-size: 20px;">Pengiriman</p>
+                <div class="d-flex gap-2 bayar-kirim">
+                    <img src="../images/jne_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                    <img src="../images/jnt_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                    <img src="../images/sicepat_logo_min 1.png" alt="" style="width: 93px; height: 35px; padding: 6px 10px;">
+                </div>
+                </div>
+                <div class="col-lg-2 ms-4">
+                <p align="right" style="font-weight: bold; font-size: 20px;">Connect With Us</p>
+                <div class="icon d-flex flex-column align-items-end gap-2">
+                    <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-tiktok"></i> TikTok </a>
+                    <a href="#" class="btn btn-secondary-black"><i class="fa-brands fa-twitter"></i> Twitter </a>
+                </div>
+                </div>
+            </div>
+            </div>
+            <br><br>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="./assets/js/script.js"></script> -->
+    </body>
+</html>
