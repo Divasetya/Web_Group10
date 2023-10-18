@@ -106,7 +106,8 @@
                       <button class="btn btnJumlah" onclick="increase()">+</button>
                     </div>
                     <p class="my-2 header1Detail">Harga : -</p>
-                    <button class="btn btnDetailSec" type="button">Masukkan Keranjang</button>
+                    <!-- <button class="btn btnDetailSec" type="button">Masukkan Keranjang</button> -->
+                    <button class="btn btnDetailSec" type="button" data-bs-toggle="modal" data-bs-target="#cartModal">Masukkan Keranjang</button>
                     <button class="btn btnDetailPrim" type="button">Bayar Sekarang</button>
                     <button class="btn btnDetail"><i class="bi bi-share"></i></button>
                 </div>
@@ -336,7 +337,41 @@
         <br><br>
     </footer>
 
-    
+    <!-- tambahkan modal keranjang di bagian bawah file HTML Anda -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cartModalLabel">Keranjang Anda</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex align-items-center">
+          <img src="../images/tshirt_detailProduk1.png" alt="Product Image" style="width: 100px;">
+          <div class="ms-3">
+            <h6>Nama Produk</h6>
+            <p>Bahan: Premium</p>
+            <p>Ukuran: M</p>
+            <p>Harga: Rp. XXXXX</p>
+            <div class="d-flex align-items-center">
+              <button class="btn btnJumlah" onclick="decrease()">-</button>
+              <span id="quantityModal" class="mx-1 px-3 py-1 card" style="height: 30px; font-size: 15px;">1</span>
+              <button class="btn btnJumlah" onclick="increase()">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        <button type="button" class="btn btn-primary">Proses Pembayaran</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ubah tombol "Masukkan Keranjang" agar dapat memicu modal keranjang -->
+<!-- <button class="btn btnDetailSec" type="button" data-bs-toggle="modal" data-bs-target="#cartModal">Masukkan Keranjang</button> -->
+
 
     <!-- js menampilkan varian baju -->
     <script>
